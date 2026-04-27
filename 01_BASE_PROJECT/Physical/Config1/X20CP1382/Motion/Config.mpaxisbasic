@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAxisBasic_Master" Type="mpaxisbasic" />
+  <Element ID="gAxisBasic_Slave" Type="mpaxisbasic" />
+</Configuration>

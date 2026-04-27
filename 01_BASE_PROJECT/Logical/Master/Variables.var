@@ -1,0 +1,14 @@
+VAR
+	M_Move_Velocity : BOOL;
+	M_Move_Additive : BOOL;
+	M_Move_Absolute : BOOL;
+	M_Stop : BOOL;
+	State : INT := 0;
+	M_Position : REAL;
+	one_time : BOOL;
+	M_Move_Additive_Done : BOOL;
+	M_Move_Absolute_Done : BOOL;
+	M_Distance : REAL;
+	M_Direction : USINT := 0;
+	M_Velocity : REAL;
+END_VAR

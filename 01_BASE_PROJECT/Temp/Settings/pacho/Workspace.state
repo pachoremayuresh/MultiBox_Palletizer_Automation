@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_1\Pachore_Mayuresh_Project_1\Logical\Master\Main.st" CaretLine="25" CaretColumn="4" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_1\Pachore_Mayuresh_Project_1\Logical\Libraries\My_Library\FSM_AXIS.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_1\Pachore_Mayuresh_Project_1\Logical\Libraries\My_Library\FSM_LED.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_1\Pachore_Mayuresh_Project_1\Logical\LED_IO\Main.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="16">
+    <Bookmarks />
+  </TextEdit>
+</State>

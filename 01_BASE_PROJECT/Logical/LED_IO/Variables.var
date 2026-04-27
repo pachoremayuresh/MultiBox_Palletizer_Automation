@@ -1,0 +1,3 @@
+VAR
+	State : INT := 0;
+END_VAR

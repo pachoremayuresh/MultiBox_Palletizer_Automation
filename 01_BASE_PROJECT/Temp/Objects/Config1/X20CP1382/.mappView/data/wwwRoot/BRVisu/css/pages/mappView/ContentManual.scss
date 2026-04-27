@@ -1,0 +1,231 @@
+@import "mixins.scss";
+#ContentManual_Label1 {	@include elemTop(0);
+}
+#ContentManual_Label1 {	@include elemLeft(0);
+}
+#ContentManual_Label1 {	@include elemAutoWidth(620);
+}
+#ContentManual_Label1 {	@include elemAutoHeight(50);
+}
+#ContentManual_Label1 {	z-index: 0;
+}
+#ContentManual_Label1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentManual_Label1 {	font-size: 20px;
+}
+#ContentManual_Label1 {	@include font-weight-bold(true);
+}
+#ContentManual_Label6 {	@include elemAutoHeight(30);
+}
+#ContentManual_Label6 {	@include elemTop(395);
+}
+#ContentManual_Label6 {	@include elemLeft(5);
+}
+#ContentManual_Label6 {	@include elemAutoWidth(305);
+}
+#ContentManual_Label6 {	z-index: 1;
+}
+#ContentManual_Label6 {	@include text-alignment-all('center');
+}
+#ContentManual_Label6 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentManual_Label6 {	font-size: 18px;
+}
+#ContentManual_Label6 {	@include font-weight-bold(true);
+}
+#ContentManual_Label7 {	@include elemAutoHeight(30);
+}
+#ContentManual_Label7 {	@include elemTop(165);
+}
+#ContentManual_Label7 {	@include elemLeft(25);
+}
+#ContentManual_Label7 {	@include elemAutoWidth(280);
+}
+#ContentManual_Label7 {	z-index: 2;
+}
+#ContentManual_Label7 {	@include text-alignment-all('center');
+}
+#ContentManual_Label7 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentManual_Label7 {	font-size: 18px;
+}
+#ContentManual_Label7 {	@include font-weight-bold(true);
+}
+#ContentManual_Slow_1 {	@include elemTop(430);
+}
+#ContentManual_Slow_1 {	@include elemLeft(20);
+}
+#ContentManual_Slow_1 {	@include elemAutoWidth(270);
+}
+#ContentManual_Slow_1 {	@include elemAutoHeight(50);
+}
+#ContentManual_Slow_1 {	z-index: 3;
+}
+#ContentManual_Slow_1 {	@include border-radius(20px);
+}
+#ContentManual_Slow_1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(0, 0, 192, 1);
+	}
+}
+#ContentManual_Slow_1 {	&:not(.disabled):not(.active):not(.checked) span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentManual_Slow_1 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(255, 255, 0, 1);
+	}
+}
+#ContentManual_Slow_1 {	span {
+		font-size: 20px;
+	}
+}
+#ContentManual_Slow_1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentManual_Slow_1 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#ContentManual_Slow_1 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(255, 255, 0, 1);
+	}
+}
+#ContentManual_Slow2 {	@include elemTop(205);
+}
+#ContentManual_Slow2 {	@include elemLeft(25);
+}
+#ContentManual_Slow2 {	@include elemAutoWidth(270);
+}
+#ContentManual_Slow2 {	@include elemAutoHeight(50);
+}
+#ContentManual_Slow2 {	z-index: 4;
+}
+#ContentManual_Slow2 {	@include border-radius(20px);
+}
+#ContentManual_Slow2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentManual_Slow2 {	&:not(.disabled):not(.active):not(.checked) span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentManual_Slow2 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#ContentManual_Slow2 {	span {
+		font-size: 20px;
+	}
+}
+#ContentManual_Slow2 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentManual_Slow2 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#ContentManual_Slow2 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#ContentManual_Manual_Lock {	@include elemTop(55);
+}
+#ContentManual_Manual_Lock {	@include elemLeft(25);
+}
+#ContentManual_Manual_Lock {	@include elemAutoWidth(650);
+}
+#ContentManual_Manual_Lock {	@include elemAutoHeight(45);
+}
+#ContentManual_Manual_Lock {	z-index: 5;
+}
+#ContentManual_Manual_Lock {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentManual_Manual_Lock {	span {
+		font-size: 25px;
+	}
+}
+#ContentManual_Manual_Lock {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentManual_Manual_Lock {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(255, 128, 0, 1);
+	}
+}
+#ContentManual_XYJoystick1 {	@include elemTop(120);
+}
+#ContentManual_XYJoystick1 {	@include elemLeft(320);
+}
+#ContentManual_XYJoystick1 {	@include elemWidth(370);
+}
+#ContentManual_XYJoystick1 {	@include elemHeight(370);
+}
+#ContentManual_XYJoystick1 {	z-index: 6;
+}
+#ContentManual_XYJoystick1 {	&:not(.disabled) {
+		background-color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentManual_XYJoystick1 {	&:not(.disabled) .ThumbView {
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#ContentManual_XYJoystick1 {	&:not(.disabled) .TrackView {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentManual_Label2 {	@include elemAutoWidth(80);
+}
+#ContentManual_Label2 {	@include elemAutoHeight(30);
+}
+#ContentManual_Label2 {	@include elemTop(360);
+}
+#ContentManual_Label2 {	@include elemLeft(125);
+}
+#ContentManual_Label2 {	z-index: 7;
+}
+#ContentManual_Label2 {	& span {
+		color: rgba(0, 0, 192, 1);
+	}
+}
+#ContentManual_Label2 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentManual_Label2 {	font-size: 50px;
+}
+#ContentManual_Label2 {	@include font-weight-bold(true);
+}
+#ContentManual_Label3 {	@include elemAutoWidth(80);
+}
+#ContentManual_Label3 {	@include elemAutoHeight(30);
+}
+#ContentManual_Label3 {	@include elemTop(130);
+}
+#ContentManual_Label3 {	@include elemLeft(125);
+}
+#ContentManual_Label3 {	z-index: 8;
+}
+#ContentManual_Label3 {	& span {
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentManual_Label3 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentManual_Label3 {	font-size: 50px;
+}
+#ContentManual_Label3 {	@include font-weight-bold(true);
+}

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="A4.83">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases>
+      <EURanges Id="1">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">100</High>
+        </EURange>
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="Blade_Man_HMI" />
+        <Variable Name="Conv_Lock_HMI" />
+        <Variable Name="Conv_Man_HMI" />
+        <Variable Name="Conv_Speed_HMI" />
+        <Variable Name="Cutter_Lock_HMI" />
+        <Variable Name="Cutter_Speed_HMI" />
+        <Variable Name="Cutting_Depth_HMI" />
+        <Variable Name="Cutting_Pos_HMI" />
+        <Variable Name="Dis_Conv_Speed_HMI" />
+        <Variable Name="Dis_Cut_Depth_HMI" />
+        <Variable Name="Dis_Cut_Pos_HMI" />
+        <Variable Name="Dis_Cut_Speed_HMI" />
+        <Variable Name="LED_DI3_HMI" />
+        <Variable Name="LED_DI4_HMI" />
+        <Variable Name="LED_DI5_HMI" />
+        <Variable Name="LED_DI6_HMI" />
+        <Variable Name="Over_Ride_HMI" />
+        <Variable Name="Reset_Button_HMI" />
+        <Variable Name="Sensor_Button_HMI" />
+        <Variable Name="Slow_Blade_HMI" />
+        <Variable Name="Slow_Conv_HMI" />
+        <Variable Name="Start_Button_HMI" />
+        <Variable Name="Stop_Button_HMI" />
+        <Variable Name="Emergancy_Button_HMI" />
+        <Variable Name="Man_Mode_HMI" />
+        <Variable Name="LED_DI1_HMI" />
+        <Variable Name="LED_DI2_HMI" />
+      </GlobalVariables>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

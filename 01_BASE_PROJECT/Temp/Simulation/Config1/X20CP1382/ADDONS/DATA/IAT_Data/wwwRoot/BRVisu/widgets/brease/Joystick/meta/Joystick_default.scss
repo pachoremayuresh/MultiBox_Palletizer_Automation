@@ -1,0 +1,91 @@
+@import "mixins.scss";
+@mixin widgets_brease_Joystick_base {
+	@include elemWidth(250);
+	@include elemHeight(250);
+	@include elemMinWidth(0);
+	@include elemMaxWidth(0);
+	@include elemMinHeight(0);
+	@include elemMaxHeight(0);
+	& .squareContainer {
+		border-color: #000000;
+	}
+	& .squareContainer {
+		border-width: 0px;
+	}
+	& .squareContainer {
+		border-style: none;
+	}
+	margin: 0px;
+	opacity: 1;
+	&:not(.disabled) .squareContainer {
+		background-color: #EDEDED;
+	}
+	&:not(.disabled) .squareContainer {
+		@include backGroundGradient('');
+	}
+	&:not(.disabled) .ThumbView {
+		background-color: #FF8800;
+	}
+	&:not(.disabled) .ThumbView {
+		@include backGroundGradient('');
+	}
+	&:not(.disabled) .TrackView {
+		background-color: transparent;
+	}
+	&:not(.disabled) .TrackView {
+		@include backGroundGradient('');
+	}
+	&.disabled .squareContainer {
+		background-color: transparent;
+	}
+	&.disabled .squareContainer {
+		@include backGroundGradient('');
+	}
+	&.disabled .ThumbView {
+		background-color: #F1F1F1;
+	}
+	&.disabled .ThumbView {
+		@include backGroundGradient('');
+	}
+	&.disabled .TrackView {
+		background-color: transparent;
+	}
+	&.disabled .TrackView {
+		@include backGroundGradient('');
+	}
+	.arrow {
+		@include display(true);
+	}
+	& .squareContainer {
+		@include pureBackgroundImage('../');
+	}
+	&:not(.disabled) .arrow.left {
+		@include borderColorLeft(#333333);
+	}
+	&:not(.disabled) .arrow.right {
+		@include borderColorRight(#333333);
+	}
+	&:not(.disabled) .arrow.top {
+		@include borderColorTop(#333333);
+	}
+	&:not(.disabled) .arrow.bottom {
+		@include borderColorBottom(#333333);
+	}
+	&.disabled .arrow.left {
+		@include borderColorLeft(#EAEAEA);
+	}
+	&.disabled .arrow.right {
+		@include borderColorRight(#EAEAEA);
+	}
+	&.disabled .arrow.top {
+		@include borderColorTop(#EAEAEA);
+	}
+	&.disabled .arrow.bottom {
+		@include borderColorBottom(#EAEAEA);
+	}
+
+}
+
+.widgets_brease_Joystick_style_default {
+@include widgets_brease_Joystick_base
+}

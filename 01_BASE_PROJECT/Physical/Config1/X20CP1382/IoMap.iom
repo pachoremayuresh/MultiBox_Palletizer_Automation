@@ -1,0 +1,17 @@
+VAR_CONFIG
+	::Conv_Lock AT %IX."4SIM.10-01".DigitalInput01;
+	::Cutter_Lock AT %IX."4SIM.10-01".DigitalInput02;
+	::Start_Button AT %IX."4SIM.10-01".DigitalInput03;
+	::Stop_Button AT %IX."4SIM.10-01".DigitalInput04;
+	::Sensor_Button AT %IX."4SIM.10-01".DigitalInput05;
+	::Reset_Button AT %IX."4SIM.10-01".DigitalInput06;
+	::Speed AT %IW."4SIM.10-01".AnalogInput01;
+	::Position AT %IW."4SIM.10-01".AnalogInput02;
+	::DI1.LED_Light AT %QX."4SIM.10-01".DigitalOutput01;
+	::DI2.LED_Light AT %QX."4SIM.10-01".DigitalOutput02;
+	::DI3.LED_Light AT %QX."4SIM.10-01".DigitalOutput05;
+	::DI4.LED_Light AT %QX."4SIM.10-01".DigitalOutput06;
+	::DI5.LED_Light AT %QX."4SIM.10-01".DigitalOutput10;
+	::DI6.LED_Light AT %QX."4SIM.10-01".DigitalOutput12;
+	::Display AT %QW."4SIM.10-01".AnalogOutput01;
+END_VAR

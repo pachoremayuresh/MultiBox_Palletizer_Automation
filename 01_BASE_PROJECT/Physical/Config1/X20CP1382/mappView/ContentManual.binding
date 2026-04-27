@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ContentManual_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Slow_Blade_HMI" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentManual" widgetRefId="Slow2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Slow_Conv_HMI" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentManual" widgetRefId="Slow_1" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Man_Mode_HMI" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentManual" widgetRefId="Manual_Lock" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Blade_Man_HMI" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentManual" widgetRefId="XYJoystick1" attribute="yValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Conv_Man_HMI" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentManual" widgetRefId="XYJoystick1" attribute="xValue" />
+</Binding>
+</Bindings>
+</BindingsSet>

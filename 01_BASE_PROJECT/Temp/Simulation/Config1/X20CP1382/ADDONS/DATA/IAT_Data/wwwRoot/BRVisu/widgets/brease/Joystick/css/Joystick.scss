@@ -1,0 +1,52 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+.breaseJoystick {
+    @include box-sizing(border-box);
+    @import "../../common/libs/redux/view/ThumbView/ThumbView.scss";
+    @import "../../common/libs/redux/view/TrackView/TrackView.scss";
+
+    .ThumbView { z-index:0;}
+    .TrackView { z-index:0;}
+
+    & .squareContainer {
+        border-radius: 999px;
+        box-sizing: border-box;
+    }
+
+    .arrow {
+        content: ' ';
+        width: 0;
+        height: 0;
+        position: absolute;
+
+        &.right {
+            border-top: 18px solid transparent;
+            border-right: 18px solid #333;
+            border-bottom: 18px solid transparent;
+            z-index: 1001;
+        }
+
+        &.left {
+            border-top: 18px solid transparent;
+            border-left: 18px solid #333;
+            border-bottom: 18px solid transparent;
+            z-index: 1001;
+        }
+
+        &.bottom {
+            border-right: 18px solid transparent;
+            border-bottom: 18px solid #333;
+            border-left: 18px solid transparent;
+            z-index: 1001;
+        }
+
+        &.top {
+            border-right: 18px solid transparent;
+            border-top: 18px solid #333;
+            border-left: 18px solid transparent;
+            z-index: 1001;
+        }
+    }
+}
+

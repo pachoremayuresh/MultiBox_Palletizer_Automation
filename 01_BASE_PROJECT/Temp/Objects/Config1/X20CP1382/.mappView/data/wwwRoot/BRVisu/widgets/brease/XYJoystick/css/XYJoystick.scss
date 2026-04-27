@@ -1,0 +1,8 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+.breaseXYJoystick {
+	@include box-sizing(border-box);
+	@import "../../common/libs/redux/view/ThumbView/ThumbView.scss";
+	@import "../../common/libs/redux/view/TrackView/TrackView.scss";
+}

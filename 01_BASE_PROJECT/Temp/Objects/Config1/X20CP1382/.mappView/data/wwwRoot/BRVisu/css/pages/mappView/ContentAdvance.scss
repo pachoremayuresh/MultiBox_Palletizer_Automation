@@ -1,0 +1,21 @@
+@import "mixins.scss";
+#ContentAdvance_Label1 {	@include elemTop(0);
+}
+#ContentAdvance_Label1 {	@include elemLeft(0);
+}
+#ContentAdvance_Label1 {	@include elemAutoWidth(525);
+}
+#ContentAdvance_Label1 {	@include elemAutoHeight(50);
+}
+#ContentAdvance_Label1 {	z-index: 0;
+}
+#ContentAdvance_Label1 {	& span {
+		color: rgba(128, 128, 128, 1);
+	}
+}
+#ContentAdvance_Label1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentAdvance_Label1 {	font-size: 20px;
+}

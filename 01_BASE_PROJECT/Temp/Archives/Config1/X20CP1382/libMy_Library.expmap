@@ -1,0 +1,7 @@
+{
+  global:
+    FSM_LED;
+    FSM_AXIS;
+  local:
+    *;
+ };

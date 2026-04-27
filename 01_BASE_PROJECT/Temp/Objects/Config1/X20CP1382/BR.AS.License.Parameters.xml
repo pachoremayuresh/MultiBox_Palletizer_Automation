@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=*</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_1\Pachore_Mayuresh_Project_1\Pachore_Mayuresh_Project_1.apj</ApjFullFileName>
+    <ProjectName>Pachore_Mayuresh_Project_1</ProjectName>
+    <ActiveConfigurationName>Config1</ActiveConfigurationName>
+    <LicenseDataFolder>D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_1\Pachore_Mayuresh_Project_1\Temp\Objects\Config1\X20CP1382</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

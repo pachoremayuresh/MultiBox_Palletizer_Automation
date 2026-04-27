@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentManual" height="500" width="700" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="0" left="0" width="620" height="50" zIndex="0" text="$IAT/Button_Names/Manual_User" fontName="Times New Roman" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label6" top="395" left="5" width="305" zIndex="1" text="$IAT/Button_Names/Conv_Mov" textAlign="center" fontName="Times New Roman" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="165" left="25" width="280" zIndex="2" text="$IAT/Button_Names/Blade_Pos" textAlign="center" fontName="Times New Roman" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="Slow_1" top="430" left="20" width="270" height="50" zIndex="3" text="$IAT/Button_Names/Slow_Motion" cornerRadius="20px" backColor="rgba(0, 0, 192, 1)" textColor="rgba(255, 255, 255, 1)" mouseDownBackColor="rgba(255, 255, 0, 1)" fontSize="20px" fontName="Times New Roman" bold="true" checkedBackColor="rgba(255, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="Slow2" top="205" left="25" width="270" height="50" zIndex="4" text="$IAT/Button_Names/Slow_Motion" cornerRadius="20px" backColor="rgba(0, 0, 0, 1)" textColor="rgba(255, 255, 255, 1)" mouseDownBackColor="rgba(0, 255, 0, 1)" fontSize="20px" fontName="Times New Roman" bold="true" checkedBackColor="rgba(0, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="Manual_Lock" top="55" left="25" width="650" height="45" zIndex="5" text="$IAT/Button_Names/ManualOperator" backColor="rgba(255, 255, 255, 1)" fontSize="25px" fontName="Times New Roman" checkedBackColor="rgba(255, 128, 0, 1)" />
+    <Widget xsi:type="widgets.brease.XYJoystick" id="XYJoystick1" top="120" left="320" width="370" height="370" zIndex="6" decimalPlaces="3" backColor="rgba(0, 0, 0, 1)" thumbColor="rgba(0, 255, 0, 1)" trackColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="360" left="125" zIndex="7" text="X" textColor="rgba(0, 0, 192, 1)" fontName="Times New Roman" fontSize="50px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="130" left="125" zIndex="8" text="Y" textColor="rgba(0, 0, 0, 1)" fontName="Times New Roman" fontSize="50px" bold="true" />
+  </Widgets>
+</Content>

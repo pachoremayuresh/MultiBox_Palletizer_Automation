@@ -1,0 +1,112 @@
+(*Name of Axis*)
+VAR
+	gAxis01 : ACP10AXIS_typ;
+	gAxis02 : ACP10AXIS_typ;
+END_VAR
+(*Hardware Variables*)
+VAR
+	Conv_Lock : BOOL;
+	Cutter_Lock : BOOL;
+	Start_Button : BOOL;
+	Stop_Button : BOOL;
+	Sensor_Button : BOOL;
+	Reset_Button : BOOL;
+	Speed : INT;
+	Position : INT;
+	DI1 : FSM_LED;
+	DI2 : FSM_LED;
+	DI3 : FSM_LED;
+	DI4 : FSM_LED;
+	DI5 : FSM_LED;
+	DI6 : FSM_LED;
+	Display : INT;
+END_VAR
+(*HMI Variables*)
+VAR
+	Emergancy_Button_HMI : BOOL;
+	Start_Button_HMI : BOOL;
+	Stop_Button_HMI : BOOL;
+	Sensor_Button_HMI : BOOL;
+	Reset_Button_HMI : BOOL;
+	Conv_Lock_HMI : BOOL;
+	Cutter_Lock_HMI : BOOL;
+	Conv_Speed_HMI : REAL;
+	Cutter_Speed_HMI : REAL;
+	Cutting_Pos_HMI : REAL;
+	Cutting_Depth_HMI : REAL;
+	Blade_Man_HMI : REAL;
+	Conv_Man_HMI : REAL;
+	Slow_Blade_HMI : BOOL;
+	Slow_Conv_HMI : BOOL;
+	LED_DI1_HMI : BOOL;
+	LED_DI2_HMI : BOOL;
+	LED_DI3_HMI : BOOL;
+	LED_DI4_HMI : BOOL;
+	LED_DI5_HMI : BOOL;
+	LED_DI6_HMI : BOOL;
+	Dis_Conv_Speed_HMI : REAL;
+	Dis_Cut_Speed_HMI : REAL;
+	Dis_Cut_Pos_HMI : INT;
+	Dis_Cut_Depth_HMI : INT;
+	Man_Mode_HMI : BOOL;
+	Over_Ride_HMI : BOOL;
+END_VAR
+(*LED_IO Variables*)
+VAR
+	Power_Axis : BOOL;
+	Home_Axis : BOOL;
+	Reset_Command : BOOL;
+	Error_Command : BOOL;
+	Start_Command : BOOL := FALSE;
+	Stop_Command : BOOL := TRUE;
+END_VAR
+(*Master Variables*)
+VAR
+	Master : FSM_AXIS;
+	M_Active : BOOL;
+	M_Actual_Position : REAL;
+	M_Actual_Velocity : REAL;
+	M_Homed : BOOL;
+	M_Powered : BOOL;
+	M_Stoped : BOOL;
+	Do_Cut : BOOL := FALSE;
+	Done_Cut : BOOL := FALSE;
+END_VAR
+(*Slave Variables*)
+VAR
+	Slave : FSM_AXIS;
+	S_Active : BOOL;
+	S_Actual_Position : REAL;
+	S_Actual_Velocity : REAL;
+	S_Homed : BOOL;
+	S_Powered : BOOL;
+	S_Stoped : BOOL;
+END_VAR
+(*Input Bridge Variables*)
+VAR
+	Start_Trigger : BOOL;
+	Stop_Trigger : BOOL;
+	Error_Trigger : BOOL;
+	Reset_Trigger : BOOL;
+	Sensor_Trigger : BOOL;
+	Conv_Lock_HMI_Trigger : BOOL;
+	Conv_Lock_Trigger : BOOL;
+	Cutter_Lock_HMI_Trigger : BOOL;
+	Cutter_Lock_Trigger : BOOL;
+	Slow_Blade_Trigger : BOOL;
+	Slow_Conv_Trigger : BOOL;
+	Over_Ride_Trigger : BOOL;
+	Conv_Speed : REAL;
+	Cut_Pos : REAL;
+	Cutter_Speed : REAL;
+	Cut_depth : REAL;
+	Blade_Pos : REAL;
+	Conv_Pos : REAL;
+	M_Error : BOOL;
+	S_Error : BOOL;
+END_VAR
+(*Manual Motion Variables*)
+VAR
+	Manual_Mode_Trigger : BOOL;
+	Man_Mode_OFF : BOOL := TRUE;
+END_VAR

@@ -1,0 +1,2 @@
+$(AS_PROJECT_PATH)/logical/global.var
+$(AS_PROJECT_PATH)/logical/libraries/my_library/my_library.fun

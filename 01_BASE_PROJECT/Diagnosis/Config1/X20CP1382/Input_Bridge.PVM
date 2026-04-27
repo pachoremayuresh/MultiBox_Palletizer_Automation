@@ -1,0 +1,24 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Input_Brid 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=7 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                       Conv_Lock_Trigger                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                     Cutter_Lock_Trigger                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           Over_Ride_HMI                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                       Over_Ride_Trigger                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                            Man_Mode_HMI                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                           Blade_Man_HMI                                     REAL    0 "                                                             0.0"    0    8    1   10    0    0         
+                               Blade_Pos                                     REAL    0 "                                                             0.0"    0    8    1   10    0    0         
+                                 S_Error                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                 M_Error                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                Conv_Pos                                     REAL    0 "                                                             0.0"    0    8    1   10    0    0         
+                            Conv_Man_HMI                                     REAL    0 "                                                             0.0"    0    8    1   10    0    0         
+                     Manual_Mode_Trigger                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                                 Cut_Pos                                     REAL    0 "                                                            50.0"    0    8    1   10    0    0         
+                               Cut_depth                                     REAL    0 "                                                            50.0"    0    8    1   10    0    0         
+                           Reset_Trigger                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          Sensor_Trigger                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           Start_Trigger                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                            Cutter_Speed                                     REAL    0 "                                                            20.0"    0    8    1   10    0    0         
+                            Stop_Trigger                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           Error_Trigger                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                              Conv_Speed                                     REAL    0 "                                                           100.0"    0    8    1   10    0    0         
