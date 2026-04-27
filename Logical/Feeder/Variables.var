@@ -1,0 +1,80 @@
+VAR
+	State : INT := 0;
+	Feeder_Current_State : Feeder_State := Wait_Start;
+END_VAR
+(*First Conveyor (Conveyor_if)*)
+VAR
+	Conveyor_1 : Gen_Device;
+	Conv_1_En_Time : INT := 20;
+	Conv_1_Dis_Time : INT := 20;
+END_VAR
+(*Pusher*)
+VAR
+	Pusher_1 : Gen_Device;
+	Pusher_1_En_Time : INT := 60;
+	Pusher_1_Dis_Time : INT := 60;
+END_VAR
+(*Second Conveyor (Conveyor_turn1)*)
+VAR
+	Conveyor_2 : Gen_Device;
+	Conv_2_En_Time : INT := 20;
+	Conv_2_Dis_Time : INT := 20;
+END_VAR
+(*Third Conveyor (Conveyor_end)*)
+VAR
+	Conveyor_3 : Gen_Device;
+	Conv_3_En_Time : INT := 20;
+	Conv_3_Dis_Time : INT := 20;
+END_VAR
+(*Turn Pusher*)
+VAR
+	Turn_Pusher : Gen_Device;
+	Turn_Pusher_En_Time : INT := 60;
+	Turn_Pusher_Dis_Time : INT := 60;
+END_VAR
+(*Carriage*)
+VAR
+	Carriage : Gen_Axis;
+	Carriage_Pos_Reached : BOOL;
+	Carriage_Tar_Pos : REAL;
+	Main_Line : BOOL := FALSE;
+END_VAR
+(*Faults*)
+VAR
+	Feeder_Old_State : Feeder_State;
+	En_Dis_Array : ARRAY[0..9] OF BOOL := [10(FALSE)];
+	Old_Pos : REAL;
+	a : INT := 0;
+	End_Layer : BOOL := FALSE;
+	En_Dis_Counter : INT;
+	Sensor_Reached : ARRAY[0..1] OF BOOL := [2(FALSE)];
+	Carriage_Pos_Restored : BOOL := FALSE;
+	Check_Pos : BOOL := FALSE;
+	Sensor_Memory : ARRAY[0..1] OF BOOL := [2(FALSE)];
+	Stop_Request : BOOL := FALSE;
+END_VAR
+VAR CONSTANT
+	Idle : WORD := 0;
+	Change_Vel : WORD := 1;
+	Change_Pos : WORD := 2;
+	Emergency_Stop_Req : WORD := 3;
+END_VAR
+VAR
+	Conv_1_dis_req : BOOL;
+	Conv_2_dis_req : BOOL;
+	Pusher_dis_req : BOOL;
+	Conv_3_dis_req : BOOL;
+	Turnpusher_dis_req : BOOL;
+	Conv_1_en_req : BOOL;
+	Conv_2_en_req : BOOL;
+	Pusher_en_req : BOOL;
+	Conv_3_en_req : BOOL;
+	Turnpusher_en_req : BOOL;
+	New_Variable6 : USINT;
+	New_Variable5 : USINT;
+	New_Variable4 : USINT;
+	New_Variable3 : USINT;
+	New_Variable2 : USINT;
+	New_Variable1 : USINT;
+	New_Variable : USINT;
+END_VAR

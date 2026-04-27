@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Top" height="250" width="1990" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="25" width="250" height="250" zIndex="0" image="Media/Logo.png" borderWidth="0px" borderColor="rgba(51, 51, 51, 0)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="0" left="300" width="1420" height="250" zIndex="1" text="$IAT/Button_Names/Heading" textAlign="center" fontName="Times New Roman" fontSize="120px" bold="true" underline="true" />
+    <Widget xsi:type="widgets.brease.Rectangle" id="Rectangle1" top="5" left="1745" width="240" height="240" zIndex="2" cornerRadius="50px" backColor="rgba(255, 255, 0, 1)" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButton1" top="15" left="1755" width="220" height="220" zIndex="3" text="$IAT/Button_Names/Emergency" borderWidth="5px" cornerRadius="110px" backColor="rgba(255, 0, 0, 1)" borderColor="rgba(0, 0, 0, 1)" mouseDownBorderColor="rgba(0, 0, 0, 1)" mouseDownBorderWidth="4px" fontSize="35px" fontName="Times New Roman" bold="true" checkedBackColor="rgba(255, 128, 128, 1)" />
+  </Widgets>
+</Content>

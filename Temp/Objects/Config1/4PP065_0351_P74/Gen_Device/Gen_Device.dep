@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Device/Gen_Device.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Device/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Device/Constants.var

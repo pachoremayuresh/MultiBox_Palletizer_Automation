@@ -1,0 +1,13 @@
+
+FUNCTION_BLOCK Blink
+	VAR_INPUT
+		LED_State : STRING[80];
+	END_VAR
+	VAR_OUTPUT
+		LED_Light : BOOL;
+	END_VAR
+	VAR
+		Timer : TON;
+		State : INT := 0;
+	END_VAR
+END_FUNCTION_BLOCK

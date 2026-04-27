@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Start_Machine" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Start_Machine" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:F_Current_State" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput9" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:M_Current_State" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput8" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:C_Current_State" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput10" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P_Current_State" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput11" attribute="value" />
+</Binding></Content>
+
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Reset" attribute="value" />
+<Target xsi:type="brease" refId="Operate_MomentaryPushButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Reset" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_MomentaryPushButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Key_Reset" attribute="value" />
+<Target xsi:type="brease" refId="Operate_MomentaryPushButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Key_Reset" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_MomentaryPushButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Turn_Pusher_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton9" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Turn_Pusher_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton9" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pusher_1_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton10" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pusher_1_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton10" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Conveyor_3_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton11" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Conveyor_3_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton11" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Conveyor_2_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton12" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Conveyor_2_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton12" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Conveyor_1_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Conveyor_1_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Carriage_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton7" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Carriage_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton7" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Cartboard_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton8" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Cartboard_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton8" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Vacuum_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Vacuum_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Crane_Pusher_X_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Crane_Pusher_X_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Box_Holder_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Box_Holder_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Gantry_Crane_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Gantry_Crane_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Crane_Pusher_Z_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton19" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Crane_Pusher_Z_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton19" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Box_Crane_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton17" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Box_Crane_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton17" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Conv_1_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton16" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Conv_1_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton16" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Conv_2_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton14" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Conv_2_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton14" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Lifter_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton15" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Lifter_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton15" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Fork_Fault_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_ToggleButton18" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Fork_Fault_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_ToggleButton18" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:On_Phase_Stop_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_MomentaryPushButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:On_Phase_Stop_HMI" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_MomentaryPushButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Priority_1_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput19" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Priority_2_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput17" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Priority_3_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput18" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Priority_4_HMI" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput16" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:On_Phase_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Rectangle9" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Immediate_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Rectangle10" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Emergency_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Rectangle8" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:C_Emergency_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput27" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:F_On_Phase_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput26" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:F_Immediate_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput25" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:F_Emergency_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput24" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:C_Immediate_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput30" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:C_On_Phase_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput29" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P_Emergency_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput28" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P_Immediate_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput32" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:P_On_Phase_Stop" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput31" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:R_Unlocked.LED_Light" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Rectangle5" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Aux_Unlocked.LED_Light" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Rectangle4" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Crane_Cartboard_Counter" attribute="node" />
+<Target xsi:type="brease" refId="Operate_NumericInput1" attribute="node" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Crane_Cartboard_Counter" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_NumericInput1" attribute="editable::node" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Counter" attribute="node" />
+<Target xsi:type="brease" refId="Operate_NumericInput2" attribute="node" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Pallet_Counter" attribute="editable" />
+<Target xsi:type="brease" refId="Operate_NumericInput2" attribute="editable::node" />
+</Binding></Content>
+
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Alarm_Detected.LED_Light" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput33" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Alarm_Detected.LED_Light" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Image1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Alarm_Detected.LED_Light" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Rectangle11" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Warning_Detected.LED_Light" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Rectangle12" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Warning_Detected.LED_Light" attribute="value" />
+<Target xsi:type="brease" refId="Operate_TextOutput34" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Operate"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:Warning_Detected.LED_Light" attribute="value" />
+<Target xsi:type="brease" refId="Operate_Image2" attribute="visible" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

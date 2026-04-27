@@ -1,0 +1,9 @@
+VAR
+	Main_State : States := Wait_Start;
+	Restart_Req : BOOL := FALSE;
+	Old_State : States;
+	Immediate_Stop_Req : BOOL := FALSE;
+	On_Phase_Stop_Req : BOOL := FALSE;
+	Stop_Request : BOOL := FALSE;
+	New_Variable : USINT;
+END_VAR

@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Blink/Blink.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Signal_Mng/Signal_Mng.fun
+$(AS_PROJECT_PATH)/Logical/Signal_Mangement/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var

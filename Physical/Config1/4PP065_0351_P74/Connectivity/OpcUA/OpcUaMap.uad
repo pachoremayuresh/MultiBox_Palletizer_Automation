@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="B4.91">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="box_crane_Act_Pos_HMI" />
+        <Variable Name="box_crane_Origin_pos_HMI" />
+        <Variable Name="box_crane_TGT_dis_HMI" />
+        <Variable Name="box_crane_TGT_HMI" />
+        <Variable Name="box_crane_TGT_pos_HMI" />
+        <Variable Name="Carriage_Push_ActPos_Dis_HMI" />
+        <Variable Name="Carriage_Push_Origin_HMI" />
+        <Variable Name="Carriage_Push_Target_HMI" />
+        <Variable Name="Carriage_Push_TarRech_HMI" />
+        <Variable Name="Carriage_Tar_Pos_Dis_HMI" />
+        <Variable Name="Carriage_Target_Pos_HMI" />
+        <Variable Name="Cartboard_Trig_HMI" />
+        <Variable Name="Conveyor_1_HMI" />
+        <Variable Name="Conveyor_1_Jog_HMI" />
+        <Variable Name="Conveyor_2_HMI" />
+        <Variable Name="Conveyor_2_Jog_HMI" />
+        <Variable Name="Conveyor_3_HMI" />
+        <Variable Name="Conveyor_3_Jog_HMI" />
+        <Variable Name="Conveyor_4_HMI" />
+        <Variable Name="Conveyor_4_Jog_HMI" />
+        <Variable Name="Conveyor_5_S1_HMI" />
+        <Variable Name="Conveyor_5_S2_HMI" />
+        <Variable Name="gantry_crane_Act_Pos_HMI" />
+        <Variable Name="gantry_crane_Origin_pos_HMI" />
+        <Variable Name="gantry_crane_TGT_dis_HMI" />
+        <Variable Name="gantry_crane_TGT_HMI" />
+        <Variable Name="gantry_crane_TGT_pos_HMI" />
+        <Variable Name="Pallet_Holder_State_HMI" />
+        <Variable Name="Pallet_Lifter_Act_Pos_HMI" />
+        <Variable Name="Pallet_Lifter_Origin_pos_HMI" />
+        <Variable Name="Pallet_Lifter_TGT_dis_HMI" />
+        <Variable Name="Pallet_Lifter_TGT_HMI" />
+        <Variable Name="Pallet_Lifter_TGT_pos_HMI" />
+        <Variable Name="Pusher_1_B_HMI" />
+        <Variable Name="Pusher_1_F_HMI" />
+        <Variable Name="Pusher_1_HMI" />
+        <Variable Name="Pusher_1_Jog_HMI" />
+        <Variable Name="pusher_x_EN_HMI" />
+        <Variable Name="pusher_z_EN_HMI" />
+        <Variable Name="Service_Mode_HMI" />
+        <Variable Name="Slide_rail_right_EN_HMI" />
+        <Variable Name="Turn_Pusher_B_HMI" />
+        <Variable Name="Turn_Pusher_F_HMI" />
+        <Variable Name="Turn_Pusher_OFF_HMI" />
+        <Variable Name="Turn_Pusher_ON_HMI" />
+        <Variable Name="vaccume_box_crane_grip_HMI" />
+        <Variable Name="vaccume_box_crane_state_HMI" />
+        <Variable Name="Start_Machine" />
+        <Variable Name="F_Current_State" />
+        <Variable Name="C_Current_State" />
+        <Variable Name="M_Current_State" />
+        <Variable Name="P_Current_State" />
+        <Variable Name="Crane_Cartboard_Counter" />
+        <Variable Name="Pallet_Counter" />
+        <Variable Name="Box_Crane_Fault_HMI" />
+        <Variable Name="Box_Holder_Fault_HMI" />
+        <Variable Name="Carriage_Fault_HMI" />
+        <Variable Name="Cartboard_Fault_HMI" />
+        <Variable Name="Conveyor_1_Fault_HMI" />
+        <Variable Name="Conveyor_2_Fault_HMI" />
+        <Variable Name="Conveyor_3_Fault_HMI" />
+        <Variable Name="Crane_Pusher_X_Fault_HMI" />
+        <Variable Name="Crane_Pusher_Z_Fault_HMI" />
+        <Variable Name="Gantry_Crane_Fault_HMI" />
+        <Variable Name="Pallet_Conv_1_Fault_HMI" />
+        <Variable Name="Pallet_Conv_2_Fault_HMI" />
+        <Variable Name="Pallet_Fork_Fault_HMI" />
+        <Variable Name="Pallet_fork_HMI" />
+        <Variable Name="Pallet_Lifter_Fault_HMI" />
+        <Variable Name="Pusher_1_Fault_HMI" />
+        <Variable Name="Turn_Pusher_Fault_HMI" />
+        <Variable Name="Vacuum_Fault_HMI" />
+        <Variable Name="Emergency_Stop_HMI" />
+        <Variable Name="On_Phase_Stop_HMI" />
+        <Variable Name="Priority_1_HMI" />
+        <Variable Name="Priority_2_HMI" />
+        <Variable Name="Priority_3_HMI" />
+        <Variable Name="Priority_4_HMI" />
+        <Variable Name="On_Phase_Stop" />
+        <Variable Name="Emergency_Stop" />
+        <Variable Name="Immediate_Stop" />
+        <Variable Name="C_Emergency_Stop" />
+        <Variable Name="C_Immediate_Stop" />
+        <Variable Name="C_On_Phase_Stop" />
+        <Variable Name="F_Emergency_Stop" />
+        <Variable Name="F_Immediate_Stop" />
+        <Variable Name="F_On_Phase_Stop" />
+        <Variable Name="P_Emergency_Stop" />
+        <Variable Name="P_Immediate_Stop" />
+        <Variable Name="P_On_Phase_Stop" />
+        <Variable Name="IR_3_HMI" />
+        <Variable Name="IR_4_HMI" />
+        <Variable Name="IR1_HMI" />
+        <Variable Name="IR2_HMI" />
+        <Variable Name="Aux_Unlocked">
+          <Variable Name="LED_Light" />
+        </Variable>
+        <Variable Name="R_Unlocked">
+          <Variable Name="LED_Light" />
+        </Variable>
+        <Variable Name="Warning_Detected">
+          <Variable Name="LED_Light" />
+        </Variable>
+        <Variable Name="Alarm_Detected">
+          <Variable Name="LED_Light" />
+        </Variable>
+      </GlobalVariables>
+      <Task Name="Signal_Man">
+        <Variable Name="Signal_Management">
+          <Variable Name="Signals" RecursiveEnable="2" />
+          <Variable Name="Reset" />
+          <Variable Name="Key_Reset" />
+          <Variable Name="Aux_Reset_Enable" />
+          <Variable Name="Reset_Enable" />
+          <Variable Name="First_Active_Signal_Index" />
+          <Variable Name="Second_Active_Signal_Index" />
+          <Variable Name="Third_Active_Signal_Index" />
+          <Variable Name="Fourth_Active_Signal_Index" />
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

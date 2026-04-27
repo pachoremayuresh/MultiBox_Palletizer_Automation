@@ -1,0 +1,6 @@
+VAR CONSTANT
+	Axis_Idle : WORD := 0;
+	Axis_Change_Velocity : WORD := 1;
+	Axis_Change_Position : WORD := 2;
+	Axis_Emergency_Stop_Request : WORD := 3;
+END_VAR

@@ -1,0 +1,299 @@
+@import "mixins.scss";
+#Left_NavigationBar1 {	@include elemTop(125);
+}
+#Left_NavigationBar1 {	@include elemLeft(10);
+}
+#Left_NavigationBar1 {	@include elemWidth(310);
+}
+#Left_NavigationBar1 {	@include elemHeight(320);
+}
+#Left_NavigationBar1 {	z-index: 0;
+}
+#Left_NavigationButton1 {	@include elemTop(0);
+}
+#Left_NavigationButton1 {	@include elemLeft(0);
+}
+#Left_NavigationButton1 {	@include elemAutoWidth(310);
+}
+#Left_NavigationButton1 {	@include elemAutoHeight(90);
+}
+#Left_NavigationButton1 {	z-index: 0;
+}
+#Left_NavigationButton1 {	&:not(.active):not(.checked) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton1 {	&.disabled {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton1 {	@include border-radius(20px);
+}
+#Left_NavigationButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(192, 255, 192, 1);
+	}
+}
+#Left_NavigationButton1 {	&.active:not(.disabled):not(.editMode) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton1 {	&.checked:not(.disabled) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton1 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#Left_NavigationButton1 {	@include text-alignment(center);
+}
+#Left_NavigationButton1 {	span {
+		font-size: 50px;
+	}
+}
+#Left_NavigationButton1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Left_NavigationButton1 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#Left_NavigationButton1 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(224, 224, 224, 1);
+	}
+}
+#Left_NavigationButton2 {	@include elemTop(115);
+}
+#Left_NavigationButton2 {	@include elemLeft(0);
+}
+#Left_NavigationButton2 {	@include elemAutoWidth(310);
+}
+#Left_NavigationButton2 {	@include elemAutoHeight(90);
+}
+#Left_NavigationButton2 {	z-index: 1;
+}
+#Left_NavigationButton2 {	&:not(.active):not(.checked) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton2 {	&.disabled {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton2 {	@include border-radius(20px);
+}
+#Left_NavigationButton2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(192, 255, 255, 1);
+	}
+}
+#Left_NavigationButton2 {	&.active:not(.disabled):not(.editMode) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton2 {	&.checked:not(.disabled) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton2 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#Left_NavigationButton2 {	@include text-alignment(center);
+}
+#Left_NavigationButton2 {	span {
+		font-size: 50px;
+	}
+}
+#Left_NavigationButton2 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Left_NavigationButton2 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#Left_NavigationButton2 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(224, 224, 224, 1);
+	}
+}
+#Left_NavigationButton3 {	@include elemTop(230);
+}
+#Left_NavigationButton3 {	@include elemLeft(0);
+}
+#Left_NavigationButton3 {	@include elemAutoWidth(310);
+}
+#Left_NavigationButton3 {	@include elemAutoHeight(90);
+}
+#Left_NavigationButton3 {	z-index: 2;
+}
+#Left_NavigationButton3 {	&:not(.active):not(.checked) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton3 {	&.disabled {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton3 {	@include border-radius(20px);
+}
+#Left_NavigationButton3 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(192, 192, 255, 1);
+	}
+}
+#Left_NavigationButton3 {	&.active:not(.disabled):not(.editMode) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton3 {	&.checked:not(.disabled) {
+		border-width: 4px;
+	}
+}
+#Left_NavigationButton3 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#Left_NavigationButton3 {	@include text-alignment(center);
+}
+#Left_NavigationButton3 {	span {
+		font-size: 50px;
+	}
+}
+#Left_NavigationButton3 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Left_NavigationButton3 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#Left_NavigationButton3 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(224, 224, 224, 1);
+	}
+}
+#Left_Label2 {	@include elemTop(1060);
+}
+#Left_Label2 {	@include elemLeft(10);
+}
+#Left_Label2 {	@include elemAutoWidth(280);
+}
+#Left_Label2 {	@include elemAutoHeight(70);
+}
+#Left_Label2 {	z-index: 1;
+}
+#Left_Label2 {	& span {
+		color: rgba(128, 64, 0, 1);
+	}
+}
+#Left_Label2 {	@include text-alignment-all('center');
+}
+#Left_Label2 {	span {
+		font-family: Arial;
+	}
+}
+#Left_Label2 {	font-size: 60px;
+}
+#Left_Label2 {	@include font-weight-bold(true);
+}
+#Left_LanguageSelector1 {	@include elemTop(950);
+}
+#Left_LanguageSelector1 {	@include elemLeft(10);
+}
+#Left_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemWidth(280);
+	}
+}
+#Left_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemHeight(85);
+	}
+}
+#Left_LanguageSelector1 {	z-index: 2;
+}
+#Left_LanguageSelector1 {	& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+		background-color: rgba(255, 192, 192, 1);
+	}
+}
+#Left_LanguageSelector1 {	& > .ItemView.itemSelected:not(.itemDisabled) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#Left_LanguageSelector1 {	& > .ItemView.itemDisabled {
+		background-color: rgba(241, 241, 241, 1);
+	}
+}
+#Left_LanguageSelector1 {	& > .ItemView:not(.itemSelected) {
+		border-width: 4px;
+	}
+}
+#Left_LanguageSelector1 {	& > .ItemView.itemSelected {
+		border-width: 4px;
+	}
+}
+#Left_LanguageSelector1 {	& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#Left_LanguageSelector1 {	& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#Left_LanguageSelector1 {	& > .ItemView {
+		padding: 0px 10px;
+	}
+}
+#Left_LanguageSelector1_listBoxWrapper {	& > .ListView.Container > .ListView.List > .ItemView {
+		padding: 0px 0px 0px 25px;
+	}
+}
+#Left_LanguageSelector1_listBoxWrapper {	& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+		background-color: rgba(255, 128, 0, 1);
+	}
+}
+#Left_LanguageSelector1_listBoxWrapper {	& > .ListView.Container {
+		border-width: 4px;
+	}
+}
+#Left_LanguageSelector1 {	& .TextView {
+		font-size: 50px;
+	}
+}
+#Left_LanguageSelector1_listBoxWrapper {	& .TextView {
+		font-size: 50px;
+	}
+}
+#Left_LanguageSelector1 {	& .TextView {
+		font-family: Times New Roman;
+	}
+}
+#Left_LanguageSelector1_listBoxWrapper {	& .TextView {
+		font-family: Times New Roman;
+	}
+}
+#Left_Label1 {	@include elemTop(0);
+}
+#Left_Label1 {	@include elemLeft(0);
+}
+#Left_Label1 {	@include elemAutoWidth(300);
+}
+#Left_Label1 {	@include elemAutoHeight(120);
+}
+#Left_Label1 {	z-index: 3;
+}
+#Left_Label1 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Left_Label1 {	@include text-alignment-all('center');
+}
+#Left_Label1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Left_Label1 {	font-size: 55px;
+}
+#Left_Label1 {	@include font-weight-bold(true);
+}
+#Left_Label1 {	span {
+		@include text-decoration-underline(true);
+	}
+}

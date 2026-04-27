@@ -1,0 +1,6 @@
+{
+  global:
+    S_filter;
+  local:
+    *;
+ };

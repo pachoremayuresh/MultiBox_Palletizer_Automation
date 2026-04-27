@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Axis/Gen_Axis.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Axis/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Device/Gen_Device.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Device/Types.typ
+$(AS_PROJECT_PATH)/Logical/Pallet/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Pallet/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Device/Constants.var

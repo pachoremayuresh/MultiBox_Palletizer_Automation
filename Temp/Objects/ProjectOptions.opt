@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\"
+  TempDirectory="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\"
+  AutomationStudioVersion="4.12.6.106"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Config1"
+  CreateAnsiCDeclarations="false" />

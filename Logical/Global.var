@@ -1,0 +1,215 @@
+(*Simulation Variables*)
+(*Input Variables*)
+VAR
+	I_IR_Sensor_1 : BOOL := FALSE; (*laser_sensor_IR*)
+	I_IR_Sensor_2 : BOOL := FALSE; (*laser_sensor2_IR*)
+	I_Carriage_Push_Act_Pos : REAL := 1; (*carriage_2_AXIS*)
+	I_Carriage_Push_Tar_Rec : BOOL := TRUE; (*carriage_2_RCHD*)
+	I_Pusher_1_B : BOOL := FALSE; (*pusher_LBK*)
+	I_Pusher_1_F : BOOL := TRUE; (*pusher_LFR*)
+	I_Turn_Push_B : BOOL := FALSE; (*turnpusher_LBK*)
+	I_Turn_Push_F : BOOL := TRUE; (*turnpusher_LFR*)
+	I_Gantry_Crane_Act_Pos : REAL := 0; (*gantry_crane_AXIS*)
+	I_Box_Crane_Act_Pos : REAL := 0; (*box_crane_AXIS*)
+	I_Vacuum_retention_act : BOOL := FALSE; (*vacuum_box_crane_VACUUM*)
+	I_Pallet_lift_Act_Pos : REAL := 0; (*pallet_lifter_AXIS*)
+	I_Pallet_holder_State : BOOL := FALSE; (*pallet_fork_left_FB*)
+	I_IR_Sensor_3 : BOOL := FALSE; (*pallet_light_barrier_1_IR*)
+	I_IR_Sensor_4 : BOOL := FALSE; (*pallet_light_barrier_2_IR*)
+END_VAR
+(*Output Variables*)
+VAR
+	O_Conveyor_1 : BOOL := FALSE; (*Conveyor_if control*)
+	O_Pusher_1 : BOOL := FALSE; (*pusher control*)
+	O_Conveyor_2 : BOOL := FALSE; (*conveyor_turn1 control*)
+	O_Conveyor_3 : BOOL := FALSE; (*conveyor_end control*)
+	O_Turn_Pusher_ON : BOOL := FALSE; (*turnpusher Forward*)
+	O_Turn_Pusher_OFF : BOOL := FALSE; (*turnpusher Backward*)
+	O_Carriage_Tar_Pos : REAL := 0; (*carriage_2 control*)
+	O_Gantry_Crane_Tar_Pos : REAL := 0; (*gantry_crane control*)
+	O_Box_Crane_Tar_Pos : REAL := 0; (*box_crane control*)
+	O_Cartboard_Trig : BOOL := FALSE; (*cartboard control*)
+	O_Vacuum_Grip_act : BOOL := FALSE; (*vacuum_box_crane control*)
+	O_Box_Holder : BOOL := FALSE; (*slide_rail_right control*)
+	O_Pusher_z : BOOL := FALSE; (*pusher_z control*)
+	O_Pusher_x : BOOL := FALSE; (*pusher_x control*)
+	O_Pallet_lift_Tar_Pos : REAL := 0; (*pallet_lifter control*)
+	O_Pallet_Holder : BOOL := FALSE; (*pallet_fork control*)
+	O_Conveyor_4 : BOOL := FALSE; (*pallet_conveyor_1 control*)
+	O_Conveyor_5_vel : REAL := 0; (*pallet_conveyor_2 control*)
+END_VAR
+(*HMI Variables*)
+VAR
+	Service_Mode_HMI : BOOL;
+	Conveyor_1_Jog_HMI : BOOL;
+	Pusher_1_Jog_HMI : BOOL;
+	Conveyor_2_Jog_HMI : BOOL;
+	Conveyor_3_Jog_HMI : BOOL;
+	Conveyor_1_HMI : BOOL;
+	Pusher_1_HMI : BOOL;
+	Conveyor_2_HMI : BOOL;
+	Conveyor_3_HMI : BOOL;
+	Turn_Pusher_ON_HMI : BOOL;
+	Turn_Pusher_OFF_HMI : BOOL;
+	Carriage_Push_Origin_HMI : BOOL;
+	Carriage_Push_Target_HMI : BOOL;
+	Carriage_Target_Pos_HMI : REAL;
+	Carriage_Tar_Pos_Dis_HMI : REAL;
+	IR1_HMI : BOOL;
+	IR2_HMI : BOOL;
+	Turn_Pusher_F_HMI : BOOL;
+	Turn_Pusher_B_HMI : BOOL;
+	Pusher_1_F_HMI : BOOL;
+	Pusher_1_B_HMI : BOOL;
+	Carriage_Push_TarRech_HMI : BOOL;
+	Carriage_Push_ActPos_Dis_HMI : REAL;
+	vaccume_box_crane_grip_HMI : BOOL;
+	Cartboard_Trig_HMI : BOOL;
+	Slide_rail_right_EN_HMI : BOOL;
+	pusher_z_EN_HMI : BOOL;
+	pusher_x_EN_HMI : BOOL;
+	gantry_crane_Origin_pos_HMI : BOOL;
+	gantry_crane_TGT_pos_HMI : BOOL;
+	gantry_crane_TGT_HMI : REAL;
+	gantry_crane_TGT_dis_HMI : REAL;
+	box_crane_TGT_pos_HMI : BOOL;
+	box_crane_Origin_pos_HMI : BOOL;
+	box_crane_TGT_HMI : REAL;
+	box_crane_TGT_dis_HMI : REAL;
+	vaccume_box_crane_state_HMI : BOOL;
+	gantry_crane_Act_Pos_HMI : REAL;
+	box_crane_Act_Pos_HMI : REAL;
+	Pallet_fork_HMI : BOOL;
+	Conveyor_4_Jog_HMI : BOOL;
+	Conveyor_4_HMI : BOOL;
+	Conveyor_5_S1_HMI : BOOL;
+	Conveyor_5_S2_HMI : BOOL;
+	Pallet_Lifter_Origin_pos_HMI : BOOL;
+	Pallet_Lifter_TGT_pos_HMI : BOOL;
+	Pallet_Lifter_TGT_HMI : REAL;
+	Pallet_Lifter_TGT_dis_HMI : REAL;
+	Pallet_Holder_State_HMI : BOOL;
+	IR_3_HMI : BOOL;
+	IR_4_HMI : BOOL;
+	On_Phase_Stop_HMI : BOOL;
+	Emergency_Stop_HMI : BOOL;
+	Priority_4_HMI : STRING[80];
+	Priority_3_HMI : STRING[80];
+	Priority_2_HMI : STRING[80];
+	Priority_1_HMI : STRING[80];
+	Pallet_Lifter_Act_Pos_HMI : REAL;
+END_VAR
+(*Signal_Mng_Faults*)
+VAR
+	Operation_Type : INT := 0;
+	Out_Of_Material : BOOL;
+	Crane_Cartboard_Counter : INT := 3;
+	Pallet_Counter : INT := 5;
+	e_Turn_Pusher_Fault : BOOL := FALSE;
+	e_Feeder_Pusher_Fault : BOOL := FALSE;
+	e_Crane_Pusher_x_Fault : BOOL := FALSE;
+	e_Crane_Pusher_z_Fault : BOOL := FALSE;
+	e_Vacuum_Fault : BOOL := FALSE;
+	e_Pallet_Fork_Fault : BOOL := FALSE;
+	e_Carriage_Fault : BOOL := FALSE;
+	e_Gantry_Crane_Fault : BOOL := FALSE;
+	e_Box_Crane_Fault : BOOL := FALSE;
+	e_Pallet_Lifter_Fault : BOOL := FALSE;
+	e_Conveyor_1_Fault : BOOL := FALSE;
+	e_Conveyor_2_Fault : BOOL := FALSE;
+	e_Conveyor_3_Fault : BOOL := FALSE;
+	e_Cartboard_Fault : BOOL := FALSE;
+	e_Box_Holder_Fault : BOOL := FALSE;
+	e_Conveyor_4_Fault : BOOL := FALSE;
+	e_Conveyor_5_Fault : BOOL := FALSE;
+	Fault : ARRAY[0..23] OF STRING[80] := ['',2('Feeder Fault Technician Required'),3('Crane Fault Technician Required'),'Pallet Fault Technician Required','Pallet Refill Required','Feeder Fault Technician Required',2('Crane Fault Technician Required'),'Pallet Fault Technician Required','Prepare Pallets to Refill','On Phase Stop Requested','Emergency Stop Requested','Prepare Cartboards to Refill','Cartboard Refill Required',3('Feeder Fault Technician Required'),2('Crane Fault Technician Required'),2('Pallet Fault Technician Required')];
+END_VAR
+(*Main*)
+VAR
+	Service_Mode : BOOL;
+	En_Machine : BOOL := FALSE;
+	Start_Machine : BOOL := FALSE;
+	Emergency_Stop : BOOL;
+	Immediate_Stop : BOOL;
+	On_Phase_Stop : BOOL;
+	Hold_Boxes : BOOL;
+	P_Exit_Done : BOOL;
+	Boxes_On_The_P : BOOL;
+	Boxes_On_The_C : BOOL; (*Feeder*)
+	Load_Boxes_On_The_C : BOOL; (*Feeder*)
+	Load_Boxes_On_The_P : BOOL;
+	Second_Layer : BOOL; (*Feeder*)
+	M_Current_State : STRING[80];
+	P_Exit_En : BOOL;
+END_VAR
+(*Communication between Feeder and Main*)
+VAR
+	Start_Feeder : BOOL := FALSE;
+	F_Emergency_Stop : BOOL := FALSE;
+	F_Reset_Config : BOOL := FALSE;
+	F_Immediate_Stop : BOOL := FALSE;
+	F_On_Phase_Stop : BOOL := FALSE;
+	F_Restart : BOOL := FALSE;
+	F_Ready : BOOL := FALSE;
+END_VAR
+(*Communication between Crane and Main*)
+VAR
+	Start_Crane : BOOL := FALSE;
+	C_Reset_Config : BOOL := FALSE;
+	C_Emergency_Stop : BOOL := FALSE;
+	C_Immediate_Stop : BOOL := FALSE;
+	C_On_Phase_Stop : BOOL := FALSE;
+	C_Restart : BOOL := FALSE;
+	C_Ready : BOOL := FALSE;
+END_VAR
+(*Communication between Pallet and Main*)
+VAR
+	Start_Pallet : BOOL := FALSE;
+	P_Emergency_Stop : BOOL := FALSE;
+	P_Reset_Config : BOOL := FALSE;
+	P_Immediate_Stop : BOOL := FALSE;
+	P_On_Phase_Stop : BOOL := FALSE;
+	P_Restart : BOOL := FALSE;
+	P_Ready : BOOL := FALSE;
+END_VAR
+(*Feeder Variables*)
+VAR
+	Conveyor_3_Fault_HMI : BOOL;
+	Conveyor_2_Fault_HMI : BOOL;
+	Conveyor_1_Fault_HMI : BOOL;
+	Turn_Pusher_Fault_HMI : BOOL;
+	Carriage_Fault_HMI : BOOL;
+	Pusher_1_Fault_HMI : BOOL;
+	Box_Counter : INT := 0;
+	C_Layer_Counter : BOOL := FALSE;
+	End_Layer : BOOL;
+	F_Current_State : STRING[80];
+END_VAR
+(*Crane Variables*)
+VAR
+	Gantry_Crane_Fault_HMI : BOOL;
+	Box_Crane_Fault_HMI : BOOL;
+	Cartboard_Fault_HMI : BOOL;
+	Vacuum_Fault_HMI : BOOL;
+	Box_Holder_Fault_HMI : BOOL;
+	Crane_Pusher_X_Fault_HMI : BOOL;
+	Crane_Pusher_Z_Fault_HMI : BOOL;
+	C_Current_State : STRING[80];
+END_VAR
+(*Pallet Variables*)
+VAR
+	Pallet_Lifter_Fault_HMI : BOOL;
+	Pallet_Fork_Fault_HMI : BOOL;
+	Pallet_Conv_1_Fault_HMI : BOOL;
+	Pallet_Conv_2_Fault_HMI : BOOL;
+	P_Current_State : STRING[80];
+END_VAR
+(*LED Blinker*)
+VAR
+	Reset_Unlocked : BOOL;
+	Aux_Reset_Unlocked : BOOL;
+	Aux_Unlocked : Blink;
+	R_Unlocked : Blink;
+	Warning_Detected : Blink;
+	Alarm_Detected : Blink;
+END_VAR

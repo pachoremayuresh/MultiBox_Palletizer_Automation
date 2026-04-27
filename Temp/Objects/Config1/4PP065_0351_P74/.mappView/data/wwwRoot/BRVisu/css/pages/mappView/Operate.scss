@@ -1,0 +1,2073 @@
+@import "mixins.scss";
+#Operate_ToggleButton1 {	@include elemTop(25);
+}
+#Operate_ToggleButton1 {	@include elemLeft(875);
+}
+#Operate_ToggleButton1 {	@include elemAutoWidth(320);
+}
+#Operate_ToggleButton1 {	@include elemAutoHeight(310);
+}
+#Operate_ToggleButton1 {	z-index: 5;
+}
+#Operate_ToggleButton1 {	&:not(.active):not(.checked) {
+		border-width: 10px;
+	}
+}
+#Operate_ToggleButton1 {	&.disabled {
+		border-width: 10px;
+	}
+}
+#Operate_ToggleButton1 {	@include border-radius(160px);
+}
+#Operate_ToggleButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(192, 255, 192, 1);
+	}
+}
+#Operate_ToggleButton1 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 192, 0, 1);
+	}
+}
+#Operate_ToggleButton1 {	span {
+		font-size: 30px;
+	}
+}
+#Operate_ToggleButton1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_ToggleButton1 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#Operate_ToggleButton1 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(0, 192, 0, 1);
+	}
+}
+#Operate_Rectangle1 {	@include elemTop(784);
+}
+#Operate_Rectangle1 {	@include elemLeft(0);
+}
+#Operate_Rectangle1 {	@include elemWidth(1690);
+}
+#Operate_Rectangle1 {	@include elemHeight(355);
+}
+#Operate_Rectangle1 {	z-index: 4;
+}
+#Operate_Rectangle1 {	border-width: 3px;
+}
+#Operate_Rectangle1 {	@include border-radius(050px);
+}
+#Operate_Rectangle1 {	background-color: rgba(255, 192, 128, 1);
+}
+#Operate_MomentaryPushButton1 {	@include elemTop(25);
+}
+#Operate_MomentaryPushButton1 {	@include elemLeft(1220);
+}
+#Operate_MomentaryPushButton1 {	@include elemAutoWidth(320);
+}
+#Operate_MomentaryPushButton1 {	@include elemAutoHeight(310);
+}
+#Operate_MomentaryPushButton1 {	z-index: 6;
+}
+#Operate_MomentaryPushButton1 {	&:not(.active):not(.checked) {
+		border-width: 10px;
+	}
+}
+#Operate_MomentaryPushButton1 {	&.disabled {
+		border-width: 10px;
+	}
+}
+#Operate_MomentaryPushButton1 {	@include border-radius(160px);
+}
+#Operate_MomentaryPushButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 192, 192, 1);
+	}
+}
+#Operate_MomentaryPushButton1 {	&.disabled {
+		background-color: rgba(255, 192, 192, 1);
+	}
+}
+#Operate_MomentaryPushButton1 {	&.disabled.active {
+		background-color: rgba(255, 192, 192, 1);
+	}
+}
+#Operate_MomentaryPushButton1 {	&.disabled.checked {
+		background-color: rgba(255, 192, 192, 1);
+	}
+}
+#Operate_MomentaryPushButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		border-color: rgba(255, 0, 0, 1);
+	}
+}
+#Operate_MomentaryPushButton1 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(192, 0, 0, 1);
+	}
+}
+#Operate_MomentaryPushButton1 {	&.checked:not(.disabled) {
+		background-color: rgba(192, 0, 0, 1);
+	}
+}
+#Operate_MomentaryPushButton1 {	span {
+		font-size: 30px;
+	}
+}
+#Operate_TextOutput1 {	@include elemTop(800);
+}
+#Operate_TextOutput1 {	@include elemLeft(20);
+}
+#Operate_TextOutput1 {	@include elemAutoWidth(1650);
+}
+#Operate_TextOutput1 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput1 {	z-index: 7;
+}
+#Operate_TextOutput1 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput1 {	font-size: 40px;
+}
+#Operate_TextOutput1 {	@include font-weight-bold(true);
+}
+#Operate_Rectangle2 {	@include elemTop(505);
+}
+#Operate_Rectangle2 {	@include elemLeft(1098);
+}
+#Operate_Rectangle2 {	@include elemWidth(591);
+}
+#Operate_Rectangle2 {	@include elemHeight(279);
+}
+#Operate_Rectangle2 {	z-index: 3;
+}
+#Operate_Rectangle2 {	border-width: 3px;
+}
+#Operate_Rectangle2 {	@include border-radius(050px);
+}
+#Operate_Rectangle2 {	background-color: rgba(128, 255, 128, 1);
+}
+#Operate_TextOutput3 {	@include elemTop(555);
+}
+#Operate_TextOutput3 {	@include elemLeft(1060);
+}
+#Operate_TextOutput3 {	@include elemAutoWidth(485);
+}
+#Operate_TextOutput3 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput3 {	z-index: 8;
+}
+#Operate_TextOutput3 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput3 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput3 {	font-size: 30px;
+}
+#Operate_TextOutput3 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput4 {	@include elemTop(675);
+}
+#Operate_TextOutput4 {	@include elemLeft(1060);
+}
+#Operate_TextOutput4 {	@include elemAutoWidth(485);
+}
+#Operate_TextOutput4 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput4 {	z-index: 9;
+}
+#Operate_TextOutput4 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput4 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput4 {	font-size: 30px;
+}
+#Operate_TextOutput4 {	@include font-weight-bold(true);
+}
+#Operate_MomentaryPushButton2 {	@include elemTop(138);
+}
+#Operate_MomentaryPushButton2 {	@include elemLeft(1473);
+}
+#Operate_MomentaryPushButton2 {	@include elemAutoWidth(290);
+}
+#Operate_MomentaryPushButton2 {	@include elemAutoHeight(85);
+}
+#Operate_MomentaryPushButton2 {	z-index: 11;
+}
+#Operate_MomentaryPushButton2 {	&.active svg {
+		fill: rgba(255, 128, 0, 1);
+	}
+}
+#Operate_MomentaryPushButton2 {	&:not(.active):not(.checked) {
+		border-width: 10px;
+	}
+}
+#Operate_MomentaryPushButton2 {	&.disabled {
+		border-width: 10px;
+	}
+}
+#Operate_MomentaryPushButton2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_MomentaryPushButton2 {	&:not(.disabled):not(.active):not(.checked) {
+		border-color: rgba(192, 64, 0, 1);
+	}
+}
+#Operate_MomentaryPushButton2 {	@include rotate(90deg);
+}
+#Operate_MomentaryPushButton2 {	span {
+		font-size: 30px;
+	}
+}
+#Operate_MomentaryPushButton2 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_MomentaryPushButton2 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#Operate_MomentaryPushButton3 {	@include elemTop(370);
+}
+#Operate_MomentaryPushButton3 {	@include elemLeft(880);
+}
+#Operate_MomentaryPushButton3 {	@include elemAutoWidth(780);
+}
+#Operate_MomentaryPushButton3 {	@include elemAutoHeight(100);
+}
+#Operate_MomentaryPushButton3 {	z-index: 13;
+}
+#Operate_MomentaryPushButton3 {	&.active svg {
+		fill: rgba(255, 128, 0, 1);
+	}
+}
+#Operate_MomentaryPushButton3 {	&:not(.active):not(.checked) {
+		border-width: 10px;
+	}
+}
+#Operate_MomentaryPushButton3 {	&.disabled {
+		border-width: 10px;
+	}
+}
+#Operate_MomentaryPushButton3 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_MomentaryPushButton3 {	&:not(.disabled):not(.active):not(.checked) {
+		border-color: rgba(192, 64, 0, 1);
+	}
+}
+#Operate_MomentaryPushButton3 {	span {
+		font-size: 30px;
+	}
+}
+#Operate_MomentaryPushButton3 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_MomentaryPushButton3 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#Operate_Rectangle3 {	@include elemTop(0);
+}
+#Operate_Rectangle3 {	@include elemLeft(850);
+}
+#Operate_Rectangle3 {	@include elemWidth(840);
+}
+#Operate_Rectangle3 {	@include elemHeight(505);
+}
+#Operate_Rectangle3 {	z-index: 2;
+}
+#Operate_Rectangle3 {	border-width: 3px;
+}
+#Operate_Rectangle3 {	@include border-radius(50px);
+}
+#Operate_Rectangle3 {	background-color: rgba(255, 255, 192, 1);
+}
+#Operate_TextOutput2 {	@include elemTop(210);
+}
+#Operate_TextOutput2 {	@include elemLeft(5);
+}
+#Operate_TextOutput2 {	@include elemAutoWidth(235);
+}
+#Operate_TextOutput2 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput2 {	z-index: 14;
+}
+#Operate_TextOutput2 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput2 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput2 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput2 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput2 {	@include text-alignment-all('right');
+}
+#Operate_TextOutput2 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput2 {	font-size: 25px;
+}
+#Operate_TextOutput2 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput5 {	@include elemTop(256);
+}
+#Operate_TextOutput5 {	@include elemLeft(5);
+}
+#Operate_TextOutput5 {	@include elemAutoWidth(235);
+}
+#Operate_TextOutput5 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput5 {	z-index: 15;
+}
+#Operate_TextOutput5 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput5 {	@include text-alignment-all('right');
+}
+#Operate_TextOutput5 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput5 {	font-size: 25px;
+}
+#Operate_TextOutput5 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput6 {	@include elemTop(306);
+}
+#Operate_TextOutput6 {	@include elemLeft(5);
+}
+#Operate_TextOutput6 {	@include elemAutoWidth(235);
+}
+#Operate_TextOutput6 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput6 {	z-index: 16;
+}
+#Operate_TextOutput6 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput6 {	@include text-alignment-all('right');
+}
+#Operate_TextOutput6 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput6 {	font-size: 25px;
+}
+#Operate_TextOutput6 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput7 {	@include elemTop(355);
+}
+#Operate_TextOutput7 {	@include elemLeft(5);
+}
+#Operate_TextOutput7 {	@include elemAutoWidth(235);
+}
+#Operate_TextOutput7 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput7 {	z-index: 17;
+}
+#Operate_TextOutput7 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput7 {	@include text-alignment-all('right');
+}
+#Operate_TextOutput7 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput7 {	font-size: 25px;
+}
+#Operate_TextOutput7 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput8 {	@include elemTop(210);
+}
+#Operate_TextOutput8 {	@include elemLeft(215);
+}
+#Operate_TextOutput8 {	@include elemAutoWidth(646);
+}
+#Operate_TextOutput8 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput8 {	z-index: 18;
+}
+#Operate_TextOutput8 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput8 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput8 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput8 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput8 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput8 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput8 {	font-size: 25px;
+}
+#Operate_TextOutput8 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput9 {	@include elemTop(256);
+}
+#Operate_TextOutput9 {	@include elemLeft(215);
+}
+#Operate_TextOutput9 {	@include elemAutoWidth(646);
+}
+#Operate_TextOutput9 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput9 {	z-index: 19;
+}
+#Operate_TextOutput9 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput9 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput9 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput9 {	font-size: 25px;
+}
+#Operate_TextOutput9 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput10 {	@include elemTop(306);
+}
+#Operate_TextOutput10 {	@include elemLeft(215);
+}
+#Operate_TextOutput10 {	@include elemAutoWidth(646);
+}
+#Operate_TextOutput10 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput10 {	z-index: 20;
+}
+#Operate_TextOutput10 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput10 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput10 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput10 {	font-size: 25px;
+}
+#Operate_TextOutput10 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput11 {	@include elemTop(355);
+}
+#Operate_TextOutput11 {	@include elemLeft(215);
+}
+#Operate_TextOutput11 {	@include elemAutoWidth(646);
+}
+#Operate_TextOutput11 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput11 {	z-index: 21;
+}
+#Operate_TextOutput11 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput11 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput11 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput11 {	font-size: 25px;
+}
+#Operate_TextOutput11 {	@include font-weight-bold(true);
+}
+#Operate_Rectangle4 {	@include elemTop(360);
+}
+#Operate_Rectangle4 {	@include elemLeft(870);
+}
+#Operate_Rectangle4 {	@include elemWidth(800);
+}
+#Operate_Rectangle4 {	@include elemHeight(120);
+}
+#Operate_Rectangle4 {	z-index: 12;
+}
+#Operate_Rectangle4 {	background-color: rgba(192, 64, 0, 1);
+}
+#Operate_Rectangle5 {	@include elemTop(25);
+}
+#Operate_Rectangle5 {	@include elemLeft(1565);
+}
+#Operate_Rectangle5 {	@include elemWidth(105);
+}
+#Operate_Rectangle5 {	@include elemHeight(310);
+}
+#Operate_Rectangle5 {	z-index: 10;
+}
+#Operate_Rectangle5 {	background-color: rgba(192, 64, 0, 1);
+}
+#Operate_Rectangle6 {	@include elemTop(410);
+}
+#Operate_Rectangle6 {	@include elemLeft(0);
+}
+#Operate_Rectangle6 {	@include elemWidth(1100);
+}
+#Operate_Rectangle6 {	@include elemHeight(374);
+}
+#Operate_Rectangle6 {	z-index: 1;
+}
+#Operate_Rectangle6 {	border-width: 3px;
+}
+#Operate_Rectangle6 {	@include border-radius(50px);
+}
+#Operate_Rectangle6 {	background-color: rgba(255, 192, 255, 1);
+}
+#Operate_TextOutput12 {	@include elemTop(425);
+}
+#Operate_TextOutput12 {	@include elemLeft(25);
+}
+#Operate_TextOutput12 {	@include elemAutoWidth(799);
+}
+#Operate_TextOutput12 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput12 {	z-index: 22;
+}
+#Operate_TextOutput12 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput12 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput12 {	font-size: 50px;
+}
+#Operate_TextOutput12 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput12 {	span {
+		@include text-decoration-underline(true);
+	}
+}
+#Operate_TextOutput16 {	@include elemTop(695);
+}
+#Operate_TextOutput16 {	@include elemLeft(560);
+}
+#Operate_TextOutput16 {	@include elemAutoWidth(515);
+}
+#Operate_TextOutput16 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput16 {	z-index: 23;
+}
+#Operate_TextOutput16 {	border-width: 3px;
+}
+#Operate_TextOutput16 {	background-color: rgba(255, 255, 255, 1);
+}
+#Operate_TextOutput16 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput16 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput16 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput16 {	border-style: solid;
+}
+#Operate_TextOutput16 {	&:before {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput16 {	&:after {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput16 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput16 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput16 {	font-size: 25px;
+}
+#Operate_TextOutput16 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput17 {	@include elemTop(695);
+}
+#Operate_TextOutput17 {	@include elemLeft(25);
+}
+#Operate_TextOutput17 {	@include elemAutoWidth(515);
+}
+#Operate_TextOutput17 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput17 {	z-index: 24;
+}
+#Operate_TextOutput17 {	border-width: 3px;
+}
+#Operate_TextOutput17 {	background-color: rgba(255, 255, 255, 1);
+}
+#Operate_TextOutput17 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput17 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput17 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput17 {	border-style: solid;
+}
+#Operate_TextOutput17 {	&:before {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput17 {	&:after {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput17 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput17 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput17 {	font-size: 25px;
+}
+#Operate_TextOutput17 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput18 {	@include elemTop(560);
+}
+#Operate_TextOutput18 {	@include elemLeft(560);
+}
+#Operate_TextOutput18 {	@include elemAutoWidth(515);
+}
+#Operate_TextOutput18 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput18 {	z-index: 25;
+}
+#Operate_TextOutput18 {	border-width: 3px;
+}
+#Operate_TextOutput18 {	background-color: rgba(255, 255, 255, 1);
+}
+#Operate_TextOutput18 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput18 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput18 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput18 {	border-style: solid;
+}
+#Operate_TextOutput18 {	&:before {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput18 {	&:after {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput18 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput18 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput18 {	font-size: 25px;
+}
+#Operate_TextOutput18 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput19 {	@include elemTop(560);
+}
+#Operate_TextOutput19 {	@include elemLeft(25);
+}
+#Operate_TextOutput19 {	@include elemAutoWidth(515);
+}
+#Operate_TextOutput19 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput19 {	z-index: 26;
+}
+#Operate_TextOutput19 {	border-width: 3px;
+}
+#Operate_TextOutput19 {	background-color: rgba(255, 255, 255, 1);
+}
+#Operate_TextOutput19 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput19 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput19 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput19 {	border-style: solid;
+}
+#Operate_TextOutput19 {	&:before {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput19 {	&:after {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput19 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput19 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput19 {	font-size: 25px;
+}
+#Operate_TextOutput19 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput13 {	@include elemTop(510);
+}
+#Operate_TextOutput13 {	@include elemLeft(25);
+}
+#Operate_TextOutput13 {	@include elemAutoWidth(510);
+}
+#Operate_TextOutput13 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput13 {	z-index: 27;
+}
+#Operate_TextOutput13 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput13 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput13 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput13 {	font-size: 25px;
+}
+#Operate_TextOutput13 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput14 {	@include elemTop(510);
+}
+#Operate_TextOutput14 {	@include elemLeft(560);
+}
+#Operate_TextOutput14 {	@include elemAutoWidth(510);
+}
+#Operate_TextOutput14 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput14 {	z-index: 28;
+}
+#Operate_TextOutput14 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput14 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput14 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput14 {	font-size: 25px;
+}
+#Operate_TextOutput14 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput15 {	@include elemTop(645);
+}
+#Operate_TextOutput15 {	@include elemLeft(560);
+}
+#Operate_TextOutput15 {	@include elemAutoWidth(510);
+}
+#Operate_TextOutput15 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput15 {	z-index: 29;
+}
+#Operate_TextOutput15 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput15 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput15 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput15 {	font-size: 25px;
+}
+#Operate_TextOutput15 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput20 {	@include elemTop(645);
+}
+#Operate_TextOutput20 {	@include elemLeft(25);
+}
+#Operate_TextOutput20 {	@include elemAutoWidth(510);
+}
+#Operate_TextOutput20 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput20 {	z-index: 32;
+}
+#Operate_TextOutput20 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput20 {	@include text-alignment-all('left');
+}
+#Operate_TextOutput20 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput20 {	font-size: 25px;
+}
+#Operate_TextOutput20 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput21 {	@include elemTop(0);
+}
+#Operate_TextOutput21 {	@include elemLeft(35);
+}
+#Operate_TextOutput21 {	@include elemAutoWidth(780);
+}
+#Operate_TextOutput21 {	@include elemAutoHeight(50);
+}
+#Operate_TextOutput21 {	z-index: 31;
+}
+#Operate_TextOutput21 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput21 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput21 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput21 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput21 {	& span {
+		color: rgba(245, 245, 245, 1);
+	}
+}
+#Operate_TextOutput21 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput21 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput21 {	font-size: 25px;
+}
+#Operate_TextOutput21 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput22 {	@include elemTop(70);
+}
+#Operate_TextOutput22 {	@include elemLeft(35);
+}
+#Operate_TextOutput22 {	@include elemAutoWidth(780);
+}
+#Operate_TextOutput22 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput22 {	z-index: 34;
+}
+#Operate_TextOutput22 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput22 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput22 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput22 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput22 {	& span {
+		color: rgba(245, 245, 245, 1);
+	}
+}
+#Operate_TextOutput22 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput22 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput22 {	font-size: 25px;
+}
+#Operate_TextOutput22 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput23 {	@include elemTop(145);
+}
+#Operate_TextOutput23 {	@include elemLeft(35);
+}
+#Operate_TextOutput23 {	@include elemAutoWidth(780);
+}
+#Operate_TextOutput23 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput23 {	z-index: 36;
+}
+#Operate_TextOutput23 {	background-color: rgba(255, 255, 255, 0);
+}
+#Operate_TextOutput23 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput23 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput23 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput23 {	& span {
+		color: rgba(245, 245, 245, 1);
+	}
+}
+#Operate_TextOutput23 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput23 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput23 {	font-size: 25px;
+}
+#Operate_TextOutput23 {	@include font-weight-bold(true);
+}
+#Operate_Rectangle7 {	@include elemTop(0);
+}
+#Operate_Rectangle7 {	@include elemLeft(0);
+}
+#Operate_Rectangle7 {	@include elemWidth(851);
+}
+#Operate_Rectangle7 {	@include elemHeight(220);
+}
+#Operate_Rectangle7 {	z-index: 0;
+}
+#Operate_Rectangle7 {	border-width: 3px;
+}
+#Operate_Rectangle7 {	@include border-radius(50px);
+}
+#Operate_Rectangle7 {	background-color: rgba(255, 228, 225, 1);
+}
+#Operate_Rectangle8 {	@include elemTop(5);
+}
+#Operate_Rectangle8 {	@include elemLeft(35);
+}
+#Operate_Rectangle8 {	@include elemWidth(780);
+}
+#Operate_Rectangle8 {	@include elemHeight(40);
+}
+#Operate_Rectangle8 {	z-index: 30;
+}
+#Operate_Rectangle8 {	@include border-radius(10px);
+}
+#Operate_Rectangle8 {	background-color: rgba(255, 0, 0, 1);
+}
+#Operate_Rectangle9 {	@include elemTop(155);
+}
+#Operate_Rectangle9 {	@include elemLeft(35);
+}
+#Operate_Rectangle9 {	@include elemWidth(780);
+}
+#Operate_Rectangle9 {	@include elemHeight(40);
+}
+#Operate_Rectangle9 {	z-index: 35;
+}
+#Operate_Rectangle9 {	@include border-radius(10px);
+}
+#Operate_Rectangle9 {	background-color: rgba(255, 0, 0, 1);
+}
+#Operate_Rectangle10 {	@include elemTop(80);
+}
+#Operate_Rectangle10 {	@include elemLeft(35);
+}
+#Operate_Rectangle10 {	@include elemWidth(780);
+}
+#Operate_Rectangle10 {	@include elemHeight(40);
+}
+#Operate_Rectangle10 {	z-index: 33;
+}
+#Operate_Rectangle10 {	@include border-radius(10px);
+}
+#Operate_Rectangle10 {	background-color: rgba(255, 0, 0, 1);
+}
+#Operate_TextOutput24 {	@include elemTop(40);
+}
+#Operate_TextOutput24 {	@include elemLeft(45);
+}
+#Operate_TextOutput24 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput24 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput24 {	z-index: 37;
+}
+#Operate_TextOutput24 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput24 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput24 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput24 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput24 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput24 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput24 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput24 {	font-size: 25px;
+}
+#Operate_TextOutput24 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput25 {	@include elemTop(115);
+}
+#Operate_TextOutput25 {	@include elemLeft(45);
+}
+#Operate_TextOutput25 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput25 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput25 {	z-index: 38;
+}
+#Operate_TextOutput25 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput25 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput25 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput25 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput25 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput25 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput25 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput25 {	font-size: 25px;
+}
+#Operate_TextOutput25 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput26 {	@include elemTop(190);
+}
+#Operate_TextOutput26 {	@include elemLeft(45);
+}
+#Operate_TextOutput26 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput26 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput26 {	z-index: 39;
+}
+#Operate_TextOutput26 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput26 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput26 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput26 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput26 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput26 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput26 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput26 {	font-size: 25px;
+}
+#Operate_TextOutput26 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput27 {	@include elemTop(40);
+}
+#Operate_TextOutput27 {	@include elemLeft(335);
+}
+#Operate_TextOutput27 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput27 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput27 {	z-index: 40;
+}
+#Operate_TextOutput27 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput27 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput27 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput27 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput27 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput27 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput27 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput27 {	font-size: 25px;
+}
+#Operate_TextOutput27 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput28 {	@include elemTop(40);
+}
+#Operate_TextOutput28 {	@include elemLeft(630);
+}
+#Operate_TextOutput28 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput28 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput28 {	z-index: 41;
+}
+#Operate_TextOutput28 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput28 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput28 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput28 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput28 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput28 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput28 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput28 {	font-size: 25px;
+}
+#Operate_TextOutput28 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput29 {	@include elemTop(190);
+}
+#Operate_TextOutput29 {	@include elemLeft(335);
+}
+#Operate_TextOutput29 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput29 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput29 {	z-index: 42;
+}
+#Operate_TextOutput29 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput29 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput29 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput29 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput29 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput29 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput29 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput29 {	font-size: 25px;
+}
+#Operate_TextOutput29 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput30 {	@include elemTop(115);
+}
+#Operate_TextOutput30 {	@include elemLeft(335);
+}
+#Operate_TextOutput30 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput30 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput30 {	z-index: 43;
+}
+#Operate_TextOutput30 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput30 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput30 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput30 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput30 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput30 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput30 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput30 {	font-size: 25px;
+}
+#Operate_TextOutput30 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput31 {	@include elemTop(190);
+}
+#Operate_TextOutput31 {	@include elemLeft(630);
+}
+#Operate_TextOutput31 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput31 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput31 {	z-index: 44;
+}
+#Operate_TextOutput31 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput31 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput31 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput31 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput31 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput31 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput31 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput31 {	font-size: 25px;
+}
+#Operate_TextOutput31 {	@include font-weight-bold(true);
+}
+#Operate_TextOutput32 {	@include elemTop(115);
+}
+#Operate_TextOutput32 {	@include elemLeft(630);
+}
+#Operate_TextOutput32 {	@include elemAutoWidth(175);
+}
+#Operate_TextOutput32 {	@include elemAutoHeight(25);
+}
+#Operate_TextOutput32 {	z-index: 45;
+}
+#Operate_TextOutput32 {	background-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput32 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput32 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput32 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput32 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#Operate_TextOutput32 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput32 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput32 {	font-size: 25px;
+}
+#Operate_TextOutput32 {	@include font-weight-bold(true);
+}
+#Operate_ToggleButton2 {	@include elemTop(875);
+}
+#Operate_ToggleButton2 {	@include elemLeft(20);
+}
+#Operate_ToggleButton2 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton2 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton2 {	z-index: 46;
+}
+#Operate_ToggleButton2 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton2 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton2 {	@include border-radius(25px);
+}
+#Operate_ToggleButton2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton2 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton2 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton12 {	@include elemTop(960);
+}
+#Operate_ToggleButton12 {	@include elemLeft(20);
+}
+#Operate_ToggleButton12 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton12 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton12 {	z-index: 47;
+}
+#Operate_ToggleButton12 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton12 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton12 {	@include border-radius(25px);
+}
+#Operate_ToggleButton12 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton12 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton12 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton11 {	@include elemTop(1045);
+}
+#Operate_ToggleButton11 {	@include elemLeft(20);
+}
+#Operate_ToggleButton11 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton11 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton11 {	z-index: 48;
+}
+#Operate_ToggleButton11 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton11 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton11 {	@include border-radius(25px);
+}
+#Operate_ToggleButton11 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton11 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton11 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton10 {	@include elemTop(875);
+}
+#Operate_ToggleButton10 {	@include elemLeft(310);
+}
+#Operate_ToggleButton10 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton10 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton10 {	z-index: 49;
+}
+#Operate_ToggleButton10 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton10 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton10 {	@include border-radius(25px);
+}
+#Operate_ToggleButton10 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton10 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton10 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton9 {	@include elemTop(960);
+}
+#Operate_ToggleButton9 {	@include elemLeft(310);
+}
+#Operate_ToggleButton9 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton9 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton9 {	z-index: 50;
+}
+#Operate_ToggleButton9 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton9 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton9 {	@include border-radius(25px);
+}
+#Operate_ToggleButton9 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton9 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton9 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton7 {	@include elemTop(1045);
+}
+#Operate_ToggleButton7 {	@include elemLeft(310);
+}
+#Operate_ToggleButton7 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton7 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton7 {	z-index: 51;
+}
+#Operate_ToggleButton7 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton7 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton7 {	@include border-radius(25px);
+}
+#Operate_ToggleButton7 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton7 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton7 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton8 {	@include elemTop(875);
+}
+#Operate_ToggleButton8 {	@include elemLeft(620);
+}
+#Operate_ToggleButton8 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton8 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton8 {	z-index: 52;
+}
+#Operate_ToggleButton8 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton8 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton8 {	@include border-radius(25px);
+}
+#Operate_ToggleButton8 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton8 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton8 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton6 {	@include elemTop(960);
+}
+#Operate_ToggleButton6 {	@include elemLeft(620);
+}
+#Operate_ToggleButton6 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton6 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton6 {	z-index: 53;
+}
+#Operate_ToggleButton6 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton6 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton6 {	@include border-radius(25px);
+}
+#Operate_ToggleButton6 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton6 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton6 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton5 {	@include elemTop(1045);
+}
+#Operate_ToggleButton5 {	@include elemLeft(620);
+}
+#Operate_ToggleButton5 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton5 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton5 {	z-index: 54;
+}
+#Operate_ToggleButton5 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton5 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton5 {	@include border-radius(25px);
+}
+#Operate_ToggleButton5 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton5 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton5 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton4 {	@include elemTop(875);
+}
+#Operate_ToggleButton4 {	@include elemLeft(910);
+}
+#Operate_ToggleButton4 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton4 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton4 {	z-index: 55;
+}
+#Operate_ToggleButton4 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton4 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton4 {	@include border-radius(25px);
+}
+#Operate_ToggleButton4 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton4 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton4 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton3 {	@include elemTop(960);
+}
+#Operate_ToggleButton3 {	@include elemLeft(910);
+}
+#Operate_ToggleButton3 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton3 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton3 {	z-index: 56;
+}
+#Operate_ToggleButton3 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton3 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton3 {	@include border-radius(25px);
+}
+#Operate_ToggleButton3 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton3 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton3 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton19 {	@include elemTop(1045);
+}
+#Operate_ToggleButton19 {	@include elemLeft(910);
+}
+#Operate_ToggleButton19 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton19 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton19 {	z-index: 57;
+}
+#Operate_ToggleButton19 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton19 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton19 {	@include border-radius(25px);
+}
+#Operate_ToggleButton19 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton19 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton19 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton17 {	@include elemTop(960);
+}
+#Operate_ToggleButton17 {	@include elemLeft(1115);
+}
+#Operate_ToggleButton17 {	@include elemAutoWidth(245);
+}
+#Operate_ToggleButton17 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton17 {	z-index: 58;
+}
+#Operate_ToggleButton17 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton17 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton17 {	@include border-radius(25px);
+}
+#Operate_ToggleButton17 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton17 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton17 {	@include rotate(90deg);
+}
+#Operate_ToggleButton17 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton16 {	@include elemTop(875);
+}
+#Operate_ToggleButton16 {	@include elemLeft(1305);
+}
+#Operate_ToggleButton16 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton16 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton16 {	z-index: 59;
+}
+#Operate_ToggleButton16 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton16 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton16 {	@include border-radius(25px);
+}
+#Operate_ToggleButton16 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton16 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton16 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton14 {	@include elemTop(960);
+}
+#Operate_ToggleButton14 {	@include elemLeft(1305);
+}
+#Operate_ToggleButton14 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton14 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton14 {	z-index: 60;
+}
+#Operate_ToggleButton14 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton14 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton14 {	@include border-radius(25px);
+}
+#Operate_ToggleButton14 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton14 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton14 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton15 {	@include elemTop(1045);
+}
+#Operate_ToggleButton15 {	@include elemLeft(1305);
+}
+#Operate_ToggleButton15 {	@include elemAutoWidth(280);
+}
+#Operate_ToggleButton15 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton15 {	z-index: 61;
+}
+#Operate_ToggleButton15 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton15 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton15 {	@include border-radius(25px);
+}
+#Operate_ToggleButton15 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton15 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton15 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_ToggleButton18 {	@include elemTop(960);
+}
+#Operate_ToggleButton18 {	@include elemLeft(1510);
+}
+#Operate_ToggleButton18 {	@include elemAutoWidth(245);
+}
+#Operate_ToggleButton18 {	@include elemAutoHeight(75);
+}
+#Operate_ToggleButton18 {	z-index: 63;
+}
+#Operate_ToggleButton18 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton18 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Operate_ToggleButton18 {	@include border-radius(25px);
+}
+#Operate_ToggleButton18 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 224, 192, 1);
+	}
+}
+#Operate_ToggleButton18 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_ToggleButton18 {	@include rotate(90deg);
+}
+#Operate_ToggleButton18 {	span {
+		font-size: 20px;
+	}
+}
+#Operate_TextOutput33 {	@include elemTop(425);
+}
+#Operate_TextOutput33 {	@include elemLeft(615);
+}
+#Operate_TextOutput33 {	@include elemAutoWidth(225);
+}
+#Operate_TextOutput33 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput33 {	z-index: 66;
+}
+#Operate_TextOutput33 {	border-width: 5px;
+}
+#Operate_TextOutput33 {	background-color: rgba(255, 215, 0, 1);
+}
+#Operate_TextOutput33 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput33 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput33 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput33 {	border-style: solid;
+}
+#Operate_TextOutput33 {	&:before {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput33 {	&:after {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput33 {	& span {
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput33 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput33 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput33 {	font-size: 40px;
+}
+#Operate_TextOutput33 {	@include font-weight-bold(true);
+}
+#Operate_Image1 {	@include elemTop(420);
+}
+#Operate_Image1 {	@include elemLeft(515);
+}
+#Operate_Image1 {	@include elemAutoWidth(105);
+}
+#Operate_Image1 {	@include elemAutoHeight(75);
+}
+#Operate_Image1 {	z-index: 68;
+}
+#Operate_Rectangle11 {	@include elemTop(420);
+}
+#Operate_Rectangle11 {	@include elemLeft(610);
+}
+#Operate_Rectangle11 {	@include elemWidth(235);
+}
+#Operate_Rectangle11 {	@include elemHeight(70);
+}
+#Operate_Rectangle11 {	z-index: 65;
+}
+#Operate_Rectangle11 {	border-width: 0px;
+}
+#Operate_Rectangle11 {	background-color: rgba(255, 215, 0, 1);
+}
+#Operate_NumericInput1 {	@include elemAutoWidth(100);
+}
+#Operate_NumericInput1 {	@include elemTop(655);
+}
+#Operate_NumericInput1 {	@include elemLeft(1555);
+}
+#Operate_NumericInput1 {	@include elemAutoHeight(100);
+}
+#Operate_NumericInput1 {	z-index: 69;
+}
+#Operate_NumericInput1 {	&:not(.active):not(.disabled) {
+		border-width: 5px;
+	}
+}
+#Operate_NumericInput1 {	&.active:not(.disabled) {
+		border-width: 5px;
+	}
+}
+#Operate_NumericInput1 {	@include border-radius(25px);
+}
+#Operate_NumericInput1 {	&:not(.disabled):not(.active) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_NumericInput1 {	&.active:not(.disabled) {
+		border-color: rgba(255, 136, 0, 1);
+	}
+}
+#Operate_NumericInput1 {	input {
+		font-family: Times New Roman;
+	}
+}
+#Operate_NumericInput1 {	input {
+		font-size: 40px;
+	}
+}
+#Operate_NumericInput1 {	padding: 0px 26px 0px 0px;
+}
+#Operate_NumericInput2 {	@include elemAutoWidth(100);
+}
+#Operate_NumericInput2 {	@include elemTop(535);
+}
+#Operate_NumericInput2 {	@include elemLeft(1555);
+}
+#Operate_NumericInput2 {	@include elemAutoHeight(100);
+}
+#Operate_NumericInput2 {	z-index: 70;
+}
+#Operate_NumericInput2 {	&:not(.active):not(.disabled) {
+		border-width: 5px;
+	}
+}
+#Operate_NumericInput2 {	&.active:not(.disabled) {
+		border-width: 5px;
+	}
+}
+#Operate_NumericInput2 {	@include border-radius(25px);
+}
+#Operate_NumericInput2 {	&:not(.disabled):not(.active) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_NumericInput2 {	&.active:not(.disabled) {
+		border-color: rgba(255, 136, 0, 1);
+	}
+}
+#Operate_NumericInput2 {	input {
+		font-family: Times New Roman;
+	}
+}
+#Operate_NumericInput2 {	input {
+		font-size: 40px;
+	}
+}
+#Operate_NumericInput2 {	padding: 0px 36px 0px 0px;
+}
+#Operate_TextOutput34 {	@include elemTop(425);
+}
+#Operate_TextOutput34 {	@include elemLeft(615);
+}
+#Operate_TextOutput34 {	@include elemAutoWidth(225);
+}
+#Operate_TextOutput34 {	@include elemAutoHeight(60);
+}
+#Operate_TextOutput34 {	z-index: 64;
+}
+#Operate_TextOutput34 {	border-width: 5px;
+}
+#Operate_TextOutput34 {	background-color: rgba(255, 215, 0, 1);
+}
+#Operate_TextOutput34 {	border-color: rgba(0, 0, 0, 1);
+}
+#Operate_TextOutput34 {	&:before {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput34 {	&:after {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput34 {	border-style: solid;
+}
+#Operate_TextOutput34 {	&:before {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput34 {	&:after {
+		border-style: solid;
+	}
+}
+#Operate_TextOutput34 {	& span {
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#Operate_TextOutput34 {	@include text-alignment-all('center');
+}
+#Operate_TextOutput34 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Operate_TextOutput34 {	font-size: 30px;
+}
+#Operate_TextOutput34 {	@include font-weight-bold(true);
+}
+#Operate_Rectangle12 {	@include elemTop(420);
+}
+#Operate_Rectangle12 {	@include elemLeft(610);
+}
+#Operate_Rectangle12 {	@include elemWidth(235);
+}
+#Operate_Rectangle12 {	@include elemHeight(70);
+}
+#Operate_Rectangle12 {	z-index: 62;
+}
+#Operate_Rectangle12 {	border-width: 0px;
+}
+#Operate_Rectangle12 {	background-color: rgba(255, 215, 0, 1);
+}
+#Operate_Image2 {	@include elemTop(420);
+}
+#Operate_Image2 {	@include elemLeft(530);
+}
+#Operate_Image2 {	@include elemAutoWidth(80);
+}
+#Operate_Image2 {	@include elemAutoHeight(70);
+}
+#Operate_Image2 {	z-index: 67;
+}

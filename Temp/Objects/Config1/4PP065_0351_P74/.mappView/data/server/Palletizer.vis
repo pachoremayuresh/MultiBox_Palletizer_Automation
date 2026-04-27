@@ -1,0 +1,35 @@
+
+<vdef:Visualization id="Palletizer" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="Operate" />
+  <Pages>
+    <Page refId="Operate" />
+    <Page refId="Alarm" />
+    <Page refId="Service" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="828140183" />
+    <BindingsSet refId="1496648429" />
+    <BindingsSet refId="-1107459212" />
+    <BindingsSet refId="1526578673" />
+  </BindingsSets>
+  <EventBindingsSets />
+  <Dialogs />
+  <Contents>
+    <Content refId="Operate" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

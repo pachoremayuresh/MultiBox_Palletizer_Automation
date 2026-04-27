@@ -1,0 +1,6 @@
+{
+  global:
+    FSM_LED;
+  local:
+    *;
+ };

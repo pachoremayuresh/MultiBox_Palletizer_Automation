@@ -1,0 +1,17 @@
+VAR
+	IR_Sensor_1 : S_filter; (*laser_sensor_IR*)
+	IR_Sensor_2 : S_filter; (*laser_sensor2_IR*)
+	CarriageB : S_filter; (*carriage_2_AXIS*)
+	Carriage : S_filter; (*carriage_2_AXIS*)
+	Pusher_1_B : S_filter; (*pusher_LBK*)
+	Pusher_1_F : S_filter; (*pusher_LFR*)
+	Turn_Push_B : S_filter; (*turnpusher_LBK*)
+	Turn_Push_F : S_filter; (*turnpusher_LFR*)
+	Gantry_Crane : S_filter; (*gantry_crane_AXIS*)
+	Box_Crane : S_filter; (*box_crane_AXIS*)
+	Vacuum : S_filter; (*vacuum_box_crane_VACUUM*)
+	Pallet_lift : S_filter; (*pallet_lifter_AXIS*)
+	Pallet_holder : S_filter; (*pallet_fork_left_FB*)
+	IR_Sensor_3 : S_filter; (*pallet_light_barrier_1_IR*)
+	IR_Sensor_4 : S_filter; (*pallet_light_barrier_2_IR*)
+END_VAR

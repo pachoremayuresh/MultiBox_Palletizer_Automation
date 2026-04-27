@@ -1,0 +1,109 @@
+@import "mixins.scss";
+#Top_Image1 {	@include elemTop(0);
+}
+#Top_Image1 {	@include elemLeft(25);
+}
+#Top_Image1 {	@include elemAutoWidth(250);
+}
+#Top_Image1 {	@include elemAutoHeight(250);
+}
+#Top_Image1 {	z-index: 0;
+}
+#Top_Image1 {	border-width: 0px;
+}
+#Top_Image1 {	border-color: rgba(51, 51, 51, 0);
+}
+#Top_Label1 {	@include elemTop(0);
+}
+#Top_Label1 {	@include elemLeft(300);
+}
+#Top_Label1 {	@include elemAutoWidth(1420);
+}
+#Top_Label1 {	@include elemAutoHeight(250);
+}
+#Top_Label1 {	z-index: 1;
+}
+#Top_Label1 {	@include text-alignment-all('center');
+}
+#Top_Label1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Top_Label1 {	font-size: 120px;
+}
+#Top_Label1 {	@include font-weight-bold(true);
+}
+#Top_Label1 {	span {
+		@include text-decoration-underline(true);
+	}
+}
+#Top_Rectangle1 {	@include elemTop(5);
+}
+#Top_Rectangle1 {	@include elemLeft(1745);
+}
+#Top_Rectangle1 {	@include elemWidth(240);
+}
+#Top_Rectangle1 {	@include elemHeight(240);
+}
+#Top_Rectangle1 {	z-index: 2;
+}
+#Top_Rectangle1 {	@include border-radius(50px);
+}
+#Top_Rectangle1 {	background-color: rgba(255, 255, 0, 1);
+}
+#Top_ToggleButton1 {	@include elemTop(15);
+}
+#Top_ToggleButton1 {	@include elemLeft(1755);
+}
+#Top_ToggleButton1 {	@include elemAutoWidth(220);
+}
+#Top_ToggleButton1 {	@include elemAutoHeight(220);
+}
+#Top_ToggleButton1 {	z-index: 3;
+}
+#Top_ToggleButton1 {	&:not(.active):not(.checked) {
+		border-width: 5px;
+	}
+}
+#Top_ToggleButton1 {	&.disabled {
+		border-width: 5px;
+	}
+}
+#Top_ToggleButton1 {	@include border-radius(110px);
+}
+#Top_ToggleButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#Top_ToggleButton1 {	&:not(.disabled):not(.checked) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Top_ToggleButton1 {	&.active:not(.disabled):not(.editMode) {
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#Top_ToggleButton1 {	&.active:not(.disabled):not(.editMode) {
+		border-width: 4px;
+	}
+}
+#Top_ToggleButton1 {	&.checked:not(.disabled) {
+		border-width: 4px;
+	}
+}
+#Top_ToggleButton1 {	span {
+		font-size: 35px;
+	}
+}
+#Top_ToggleButton1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#Top_ToggleButton1 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#Top_ToggleButton1 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(255, 128, 128, 1);
+	}
+}

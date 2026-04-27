@@ -1,0 +1,62 @@
+VAR CONSTANT
+	Init : INT := 0;
+	Run : INT := 1;
+	Start_Config : INT := 2;
+	Config : INT := 3;
+	Start_Gen : INT := 4;
+	Generation : INT := 5;
+	Alarm : DINT := 2#0000000000000001;
+	Anomaly : DINT := 2#0000000000000010;
+	Warning : DINT := 2#0000000000000011;
+	Information : DINT := 2#0000000000000100;
+	Aux_Reset : DINT := 2#0000001000000000;
+	Unconditioned_Reset : DINT := 2#0100000000000000;
+	Auto_Conditioned_Reset : DINT := 2#0010000000000000;
+	Auto_Provisional_Reset : DINT := 2#0001000000000000;
+	Auto_Priority_Reset : DINT := 2#0000100000000000;
+	Auto_Reset : DINT := 2#0000010000000000;
+	Signal_Type_Mask : DINT := 2#0000000000000111;
+END_VAR
+(*Message IDs*)
+VAR CONSTANT
+	m_Turn_Pusher_Fault : INT := 1;
+	m_Feeder_Pusher_Fault : INT := 2;
+	m_Crane_Pusher_x_Fault : INT := 3;
+	m_Crane_Pusher_z_Fault : INT := 4;
+	m_Vacuum_Fault : INT := 5;
+	m_Pallet_Fork_Fault : INT := 6;
+	m_Pallets_Over : INT := 7;
+	m_Carriage_Fault : INT := 8;
+	m_Gantry_Crane_Fault : INT := 9;
+	m_Box_Crane_Fault : INT := 10;
+	m_Pallet_Lifter_Fault : INT := 11;
+	m_Pallets_Almost_Over : INT := 12;
+	m_On_Phase_Stop_Requested : INT := 13;
+	m_Emergency_Stop_Requested : INT := 14;
+	m_Cartboard_Almost_Over : INT := 15;
+	m_Cartboard_Over : INT := 16;
+	m_Conveyor_1_Fault : INT := 17;
+	m_Conveyor_2_Fault : INT := 18;
+	m_Conveyor_3_Fault : INT := 19;
+	m_Cartboard_Fault : INT := 20;
+	m_Box_Holder_Fault : INT := 21;
+	m_Conveyor_4_Fault : INT := 22;
+	m_Conveyor_5_Fault : INT := 23;
+END_VAR
+(*Output IDs*)
+VAR CONSTANT
+	S_None : DWORD := 16#0000;
+	S_Emergency_Stop : DWORD := 16#0001;
+	S_Immediate_Stop : DWORD := 16#0002;
+	S_On_Phase_Stop : DWORD := 16#0004;
+	S_Machine_Out_Of_Phase : DWORD := 16#0100;
+	S_Machine_Inhabition : DWORD := 16#0200;
+	S_Materials_Run_Out_Lamp : DWORD := 16#0400;
+	S_Materials_Run_Out_Buzzer : DWORD := 16#0800;
+	S_IO_Diagnostic_Inhabition : DWORD := 16#8000;
+END_VAR
+VAR
+	Signal_Management : Signal_Mng;
+	Crane_Temp : BOOL;
+	Output_Signals : DWORD;
+END_VAR

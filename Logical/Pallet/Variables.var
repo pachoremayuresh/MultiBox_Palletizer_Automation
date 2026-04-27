@@ -1,0 +1,56 @@
+VAR
+	State : INT := 0;
+	Pallet_Current_State : Pallet_State;
+END_VAR
+(*Pallet_Lifter*)
+VAR
+	Pallet_Lifter : Gen_Axis;
+	Pallet_Lifter_Pos_Reached : BOOL;
+	Pallet_Lifter_Tar_Pos : REAL;
+END_VAR
+(*Pallet_Fork*)
+VAR
+	Pallet_Fork : Gen_Device;
+	Pallet_Fork_En_Time : INT := 80;
+	Pallet_Fork_Dis_Time : INT := 80;
+END_VAR
+(*Pallet Conveyor 1*)
+VAR
+	Pallet_Conv_1 : Gen_Device;
+	Pallet_Conv_1_En_Time : INT := 20;
+	Pallet_Conv_1_Dis_Time : INT := 20;
+END_VAR
+(*Pallet Conveyor 2*)
+VAR
+	Pallet_Conv_2 : Gen_Axis;
+	Pallet_Conv_2_Vel_Reached : BOOL;
+	Pallet_Conv_2_Tar_Vel : REAL;
+END_VAR
+(*Faults*)
+VAR
+	En_Dis_Array : ARRAY[0..3] OF BOOL := [4(FALSE)];
+	a : INT := 0;
+	En_Dis_Counter : INT;
+	Check_Pos : BOOL := FALSE;
+	Old_Pos : REAL;
+	Check_Vel : BOOL;
+	Old_Vel : REAL;
+	Pallet_Lifter_Pos_Restored : BOOL := FALSE;
+	Pallet_Conv_2_Vel_Restored : BOOL := FALSE;
+	Pallet_On_Conv_2 : BOOL;
+	Old_State : Pallet_State;
+	Stop_Req : BOOL := FALSE;
+END_VAR
+VAR CONSTANT
+	Idle : WORD := 0;
+	Change_Vel : WORD := 1;
+	Change_Pos : WORD := 2;
+	Emergency_Stop_Req : WORD := 3;
+END_VAR
+VAR
+	P_Fork_En_Req : BOOL;
+	P_Fork_Dis_Req : BOOL;
+	P_Conv_1_En_Req : BOOL;
+	P_Conv_1_Dis_Req : BOOL;
+	New_Variable : USINT;
+END_VAR

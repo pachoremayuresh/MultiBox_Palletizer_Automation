@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="Main_Contr"
+      Disable="false"
+      Source="Main_Control"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\Objects\Config1\4PP065_0351_P74\Main_Contr\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Main_Control\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Main_Control\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="Input_Brid"
+      Disable="false"
+      Source="Input_Bridge"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\Objects\Config1\4PP065_0351_P74\Input_Brid\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Input_Bridge\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Input_Bridge\Variables.var" />
+    </Task>
+    <Task
+      Name="Output_Bri"
+      Disable="false"
+      Source="Output_Bridge"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\Objects\Config1\4PP065_0351_P74\Output_Bri\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Output_Bridge\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Output_Bridge\Variables.var" />
+    </Task>
+    <Task
+      Name="Pallet"
+      Disable="false"
+      Source="Pallet"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\Objects\Config1\4PP065_0351_P74\Pallet\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Pallet\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Pallet\Variables.var" />
+    </Task>
+    <Task
+      Name="Crane"
+      Disable="false"
+      Source="Crane"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\Objects\Config1\4PP065_0351_P74\Crane\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Crane\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Crane\Variables.var" />
+    </Task>
+    <Task
+      Name="Feeder"
+      Disable="false"
+      Source="Feeder"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\Objects\Config1\4PP065_0351_P74\Feeder\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Feeder\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Feeder\Variables.var" />
+    </Task>
+    <Task
+      Name="ComTCP_P"
+      Disable="false"
+      Source="Libraries.ComTCP.ComTCP_P"
+      Language="ANSIC">
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Libraries\ComTCP\ComTCP_P\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Libraries\ComTCP\ComTCP_P\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="Signal_Man"
+      Disable="false"
+      Source="Signal_Mangement"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\Objects\Config1\4PP065_0351_P74\Signal_Man\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Signal_Mangement\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Logical\Signal_Mangement\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

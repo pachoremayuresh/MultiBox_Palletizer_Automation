@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Axis/Gen_Axis.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Axis/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Gen_Axis/Constants.var

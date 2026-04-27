@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="Left" height="1140" width="300" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NavigationBar" id="NavigationBar1" top="125" left="10" width="310" height="320" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="0" left="0" width="310" height="90" zIndex="0" pageId="Operate" text="$IAT/Button_Names/Operator" borderWidth="4px" cornerRadius="20px" backColor="rgba(192, 255, 192, 1)" mouseDownBorderWidth="4px" mouseDownBackColor="rgba(255, 255, 255, 1)" textAlign="center" fontSize="50px" fontName="Times New Roman" bold="true" checkedBackColor="rgba(224, 224, 224, 1)" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton2" top="115" left="0" width="310" height="90" zIndex="1" imageAlign="right" pageId="Alarm" text="$IAT/Button_Names/Alarm" borderWidth="4px" cornerRadius="20px" backColor="rgba(192, 255, 255, 1)" mouseDownBorderWidth="4px" mouseDownBackColor="rgba(255, 255, 255, 1)" textAlign="center" fontSize="50px" fontName="Times New Roman" bold="true" checkedBackColor="rgba(224, 224, 224, 1)" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton3" top="230" left="0" width="310" height="90" zIndex="2" pageId="Service" text="$IAT/Button_Names/Service" borderWidth="4px" cornerRadius="20px" backColor="rgba(192, 192, 255, 1)" mouseDownBorderWidth="4px" mouseDownBackColor="rgba(255, 255, 255, 1)" textAlign="center" fontSize="50px" fontName="Times New Roman" bold="true" checkedBackColor="rgba(224, 224, 224, 1)" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="1060" left="10" width="280" height="70" zIndex="1" text="@Mayur" textColor="rgba(128, 64, 0, 1)" textAlign="center" fontName="Arial" fontSize="60px" bold="true" />
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="950" left="10" width="280" height="85" zIndex="2" itemHeight="85" listWidth="340" backColor="rgba(255, 192, 192, 1)" mouseDownBackColor="rgba(255, 255, 255, 1)" disabledBackColor="rgba(241, 241, 241, 1)" borderWidth="4px" mouseDownBorderWidth="4px" textColor="rgba(0, 0, 0, 1)" mouseDownTextColor="rgba(0, 0, 0, 1)" padding="0px 10px" listPadding="0px 0px 0px 25px" activeBackColor="rgba(255, 128, 0, 1)" listBorderWidth="4px" fontSize="50px" fontName="Times New Roman" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="0" left="0" width="300" height="120" zIndex="3" text="$IAT/Button_Names/Min_Heading" textColor="rgba(255, 255, 255, 1)" textAlign="center" fontName="Times New Roman" fontSize="55px" bold="true" underline="true" />
+  </Widgets>
+</Content>

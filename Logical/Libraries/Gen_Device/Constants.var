@@ -1,0 +1,11 @@
+VAR CONSTANT
+	Dev_Without_Feedback : INT := 2#01000000;
+	Dev_With_Enable_Feedback : INT := 2#00010000;
+	Dev_With_Disable_Feedback : INT := 2#00100000;
+	Dev_With_Double_Feedback : INT := 2#00110000;
+	Dev_With_Single_Actuation : INT := 2#00000001;
+	Dev_With_Double_Actuation : INT := 2#00000011;
+	Dev_With_DA_No_Retain : INT := 2#00000010;
+	Dev_Feedback_Mask : INT := 2#11110000;
+	Dev_Actuation_Mask : INT := 2#00001111;
+END_VAR

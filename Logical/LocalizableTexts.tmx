@@ -1,0 +1,952 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Button_Names</prop>
+  </header>
+  <body>
+    <tu tuid="Heading">
+      <tuv xml:lang="it">
+        <seg>Palettizzatore Multiscatola</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Multi-Box Palletizer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Emergency">
+      <tuv xml:lang="it">
+        <seg>Emergenza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Emergency</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Min_Heading">
+      <tuv xml:lang="it">
+        <seg>Navigazione</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Navigation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Operator">
+      <tuv xml:lang="it">
+        <seg>Operatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Operator	
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Alarm">
+      <tuv xml:lang="it">
+        <seg>Allarme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Service">
+      <tuv xml:lang="it">
+        <seg>Servizio</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Service</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Service_Mode">
+      <tuv xml:lang="it">
+        <seg>Modalità di servizio</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Service Mode</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Feeder">
+      <tuv xml:lang="it">
+        <seg>Gestore dell'alimentatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Handler</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Crane">
+      <tuv xml:lang="it">
+        <seg>Movimentatore di gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Handler</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Pallet">
+      <tuv xml:lang="it">
+        <seg>Gestore di pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Paller Handler</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Conv1">
+      <tuv xml:lang="it">
+        <seg>Trasportatore 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Conv2">
+      <tuv xml:lang="it">
+        <seg>Trasportatore 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Conv3">
+      <tuv xml:lang="it">
+        <seg>Trasportatore 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="on">
+      <tuv xml:lang="it">
+        <seg>ACCESO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ON
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="off">
+      <tuv xml:lang="it">
+        <seg>SPENTO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OFF</seg>
+      </tuv>
+    </tu>
+    <tu tuid="jog">
+      <tuv xml:lang="it">
+        <seg>Jog</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Jog</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Push1">
+      <tuv xml:lang="it">
+        <seg>Spintore 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pusher 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Push2">
+      <tuv xml:lang="it">
+        <seg>Gira lo Spintore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Turn Pusher</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Push3">
+      <tuv xml:lang="it">
+        <seg>Spintore del carrello</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Carriage Pusher</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IR1">
+      <tuv xml:lang="it">
+        <seg>IR 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IR 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IR2">
+      <tuv xml:lang="it">
+        <seg>IR 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IR 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IR_name">
+      <tuv xml:lang="it">
+        <seg>Sensore laser</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Laser Sensor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Front">
+      <tuv xml:lang="it">
+        <seg>Fronte</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Front</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Back">
+      <tuv xml:lang="it">
+        <seg>Indietro</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Back</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TargetVal">
+      <tuv xml:lang="it">
+        <seg>Imposta obiettivo
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set Target</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ActPos">
+      <tuv xml:lang="it">
+        <seg>Posizione effettiva</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Actual Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TargetRec">
+      <tuv xml:lang="it">
+        <seg>Obiettivo Raggiunto</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Target Reached</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Cartboard">
+      <tuv xml:lang="it">
+        <seg>Rilascio CartBoard</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cardboard Release
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Vaccum">
+      <tuv xml:lang="it">
+        <seg>Attivazione del vuoto</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Vaccum Activation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="boxHolder">
+      <tuv xml:lang="it">
+        <seg>Attivazione del supporto della scatola</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Box Holder Activation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pusherZ">
+      <tuv xml:lang="it">
+        <seg>Spingitore Z</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pusher Z</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pusherX">
+      <tuv xml:lang="it">
+        <seg>Spingitore X</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pusher X
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="gantryActPos">
+      <tuv xml:lang="it">
+        <seg>Posizione effettiva della gru a portale</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gantry Crane Actual Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="boxcraneActPos">
+      <tuv xml:lang="it">
+        <seg>Posizione effettiva della gru a cassone</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Box Crane Actual Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Gantry_Crane">
+      <tuv xml:lang="it">
+        <seg>Gru a portale</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gantry Crane</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Box_Crane">
+      <tuv xml:lang="it">
+        <seg>Gru a cassone</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Box Crane</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Pallet_Release">
+      <tuv xml:lang="it">
+        <seg>Rilascio Pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Release</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Conv4">
+      <tuv xml:lang="it">
+        <seg>Trasportatore 4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor 4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Conv5">
+      <tuv xml:lang="it">
+        <seg>Trasportatore 5</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor 5</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Pallet_Lift">
+      <tuv xml:lang="it">
+        <seg>Sollevatore per Pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Lifter</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Pallet_Lift_Act_Pos">
+      <tuv xml:lang="it">
+        <seg>Posizione effettiva del sollevatore per Pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Lifter Actual Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IR3">
+      <tuv xml:lang="it">
+        <seg>IR 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IR 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IR4">
+      <tuv xml:lang="it">
+        <seg>IR 4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>IR 4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="backward">
+      <tuv xml:lang="it">
+        <seg>Indietro</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Backward
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="forward">
+      <tuv xml:lang="it">
+        <seg>Inoltrare</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Forward
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Up">
+      <tuv xml:lang="it">
+        <seg>Su</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Up</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Down">
+      <tuv xml:lang="it">
+        <seg>Giù</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Down</seg>
+      </tuv>
+    </tu>
+    <tu tuid="OFF0.5">
+      <tuv xml:lang="it">
+        <seg>SPENTO 0.5</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OFF 0.5</seg>
+      </tuv>
+    </tu>
+    <tu tuid="OFF0.1">
+      <tuv xml:lang="it">
+        <seg>SPENTO 0.1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OFF 0.1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ON0.5">
+      <tuv xml:lang="it">
+        <seg>ACCESO 0.5</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ON 0.5</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ON0.1">
+      <tuv xml:lang="it">
+        <seg>ACCESO 0.1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ON 0.1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Immideate_stop">
+      <tuv xml:lang="it">
+        <seg>Arresto immediato</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Immediate Stop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="On_phase_Stop">
+      <tuv xml:lang="it">
+        <seg>Su arresto di fase</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On Phase Stop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Start_Machine">
+      <tuv xml:lang="it">
+        <seg>Avvia Macchina</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start Machine</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FC1_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto del trasportatore alimentatore 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Conveyor 1 Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FC2_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto del trasportatore alimentatore 2
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Conveyor 2 Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FC3_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto del trasportatore alimentatore 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Conveyor 3 Fault
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FTP_Fault">
+      <tuv xml:lang="it">
+        <seg>Errore dello spingitore di rotazione dell'alimentatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Turn Pusher Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FP_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto allo spingitore dell'alimentatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Pusher Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FCarriage_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto al carrello di alimentazione</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Carriage Fault
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CC_Fault">
+      <tuv xml:lang="it">
+        <seg>Difetto del cartone della gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Cardboard Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CV_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto del vuoto della gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Vacuum Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CS_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto alla guida di scorrimento della gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane SlideRail Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CPZ_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto Z dello spintore della gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Pusher Z Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CPX_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto X dello spintore della gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Pusher X Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GC_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto alla gru a cavalletto</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gantry Crane Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BC_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto alla gru a cassone</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Box Crane Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PF_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto alla forca per pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Fork Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PL_Fault">
+      <tuv xml:lang="it">
+        <seg>Guasto del sollevatore di pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Lifter Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PC1_Fault">
+      <tuv xml:lang="it">
+        <seg>Errore del trasportatore pallet 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Conveyor 1 Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PC2_Fault">
+      <tuv xml:lang="it">
+        <seg>Errore del trasportatore pallet 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Conveyor 2 Fault</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PO">
+      <tuv xml:lang="it">
+        <seg>Pallet finito</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Over</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CO">
+      <tuv xml:lang="it">
+        <seg>Cartone finito</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cardboard Over</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FC1">
+      <tuv xml:lang="it">
+        <seg>Trasportatore alimentatore 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Conveyor 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FC2">
+      <tuv xml:lang="it">
+        <seg>Trasportatore alimentatore 2
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Conveyor 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FC3">
+      <tuv xml:lang="it">
+        <seg>Trasportatore alimentatore 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Conveyor 3
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FTP">
+      <tuv xml:lang="it">
+        <seg>Spintore di rotazione dell'alimentatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Turn Pusher</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FP">
+      <tuv xml:lang="it">
+        <seg>Spingitore dell'alimentatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Pusher</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FCarriage">
+      <tuv xml:lang="it">
+        <seg>Carrello alimentatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder Carriage
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CC">
+      <tuv xml:lang="it">
+        <seg>Cartone della gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Cardboard</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CV">
+      <tuv xml:lang="it">
+        <seg>Aspirapolvere per gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Vacuum</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CS">
+      <tuv xml:lang="it">
+        <seg>Guida di scorrimento della gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane SlideRail</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CPZ">
+      <tuv xml:lang="it">
+        <seg>Spintore gru Z</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Pusher Z</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CPX">
+      <tuv xml:lang="it">
+        <seg>Spintore gru X</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane Pusher X</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GC">
+      <tuv xml:lang="it">
+        <seg>Gru a portale</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gantry Crane</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BC">
+      <tuv xml:lang="it">
+        <seg>Gru a cassone</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Box Crane</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PF">
+      <tuv xml:lang="it">
+        <seg>Forca per pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Fork</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PL">
+      <tuv xml:lang="it">
+        <seg>Sollevatore per pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Lifter</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PC1">
+      <tuv xml:lang="it">
+        <seg>Trasportatore di pallet 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Conveyor 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PC2">
+      <tuv xml:lang="it">
+        <seg>Trasportatore di pallet 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Conveyor 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Fault_Sim">
+      <tuv xml:lang="it">
+        <seg>Simulatore di Guasti</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fault Simulator</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P_Remain">
+      <tuv xml:lang="it">
+        <seg>Pallet Rimanenti</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallets Remaining</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Cart_Remain">
+      <tuv xml:lang="it">
+        <seg>Cartone Rimanente</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cardboard Remaining</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Reset">
+      <tuv xml:lang="it">
+        <seg>Ripristino</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Aux_Reset">
+      <tuv xml:lang="it">
+        <seg>Ripristino AUX</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>AUX Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Com_Seq">
+      <tuv xml:lang="it">
+        <seg>Sequenza di Comandi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Command Sequence</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Machine_State">
+      <tuv xml:lang="it">
+        <seg>Stato Macchina:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine State:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="F_State">
+      <tuv xml:lang="it">
+        <seg>Stato di Alimentazione:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder State:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="C_State">
+      <tuv xml:lang="it">
+        <seg>Stato della Gru:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane State:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P_State">
+      <tuv xml:lang="it">
+        <seg>Stato del Pallet:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet State:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="OFF_State">
+      <tuv xml:lang="it">
+        <seg>SPENTO</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OFF</seg>
+      </tuv>
+    </tu>
+    <tu tuid="R_Sequency">
+      <tuv xml:lang="it">
+        <seg>Sequenza di Recupero</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Recovery Sequence</seg>
+      </tuv>
+    </tu>
+    <tu tuid="priority_4">
+      <tuv xml:lang="it">
+        <seg>Priorità 4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Priority 4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="priority_3">
+      <tuv xml:lang="it">
+        <seg>Priorità 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Priority 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="priority_2">
+      <tuv xml:lang="it">
+        <seg>Priorità 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Priority 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="priority_1">
+      <tuv xml:lang="it">
+        <seg>Priorità 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Priority 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Feeder_E">
+      <tuv xml:lang="it">
+        <seg>Alimentatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Crane_E">
+      <tuv xml:lang="it">
+        <seg>Gru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Crane</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Pallet_E">
+      <tuv xml:lang="it">
+        <seg>Pallet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="E_Request">
+      <tuv xml:lang="it">
+        <seg>Richiesto arresto di emergenza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Emergency Stop Requested
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="I_Request">
+      <tuv xml:lang="it">
+        <seg>Richiesta di arresto immediato</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Immediate Stop Requested</seg>
+      </tuv>
+    </tu>
+    <tu tuid="O_Request">
+      <tuv xml:lang="it">
+        <seg>Arresto in fase richiesto</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On Phase Stop Requested
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="OFM">
+      <tuv xml:lang="it">
+        <seg>Senza materiale</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Out Of Material</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Warning">
+      <tuv xml:lang="it">
+        <seg>Avvertimento</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Warning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CB_ALmost_Over">
+      <tuv xml:lang="it">
+        <seg>Cartoncino Quasi Finito</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cartboard Almost Over</seg>
+      </tuv>
+    </tu>
+    <tu tuid="P_Almost_O">
+      <tuv xml:lang="it">
+        <seg>Pallet Quasi Finito</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pallet Almost Over</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

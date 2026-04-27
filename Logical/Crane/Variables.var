@@ -1,0 +1,79 @@
+VAR
+	State : USINT := 0;
+	Crane_Current_State : Crane_State;
+END_VAR
+(*Gantry Crane*)
+VAR
+	Gantry_Crane : Gen_Axis;
+	Gantry_Crane_Pos_Reached : BOOL;
+	Gantry_Crane_Tar_Pos : REAL;
+END_VAR
+(*Box Crane*)
+VAR
+	Box_Crane : Gen_Axis;
+	Box_Crane_Pos_Reached : BOOL;
+	Box_Crane_Tar_Pos : REAL;
+END_VAR
+(*Cartboard*)
+VAR
+	Cartboard : Gen_Device;
+	Cartboard_En_Time : INT := 60;
+	Cartboard_Dis_Time : INT := 60;
+END_VAR
+(*Vacuum*)
+VAR
+	Vacuum : Gen_Device;
+	Vacuum_En_Time : INT := 80;
+	Vacuum_Dis_Time : INT := 80;
+END_VAR
+(*SlideRail*)
+VAR
+	Box_Holder : Gen_Device;
+	Box_Holder_En_Time : INT := 60;
+	Box_Holder_Dis_Time : INT := 60;
+END_VAR
+(*Pusher X*)
+VAR
+	Pusher_X : Gen_Device;
+	Pusher_X_En_Time : INT := 60;
+	Pusher_X_Dis_Time : INT := 60;
+END_VAR
+(*Pusher Z*)
+VAR
+	Pusher_Z : Gen_Device;
+	Pusher_Z_En_Time : INT;
+	Pusher_Z_Dis_Time : INT;
+END_VAR
+(*Faults*)
+VAR
+	En_Dis_Array : ARRAY[0..9] OF BOOL := [10(FALSE)];
+	a : INT := 0;
+	En_Dis_Counter : INT;
+	Check_Pos : ARRAY[0..1] OF BOOL := [2(FALSE)];
+	Old_Pos : ARRAY[0..1] OF REAL;
+	Box_Crane_Pos_Restored : BOOL := FALSE;
+	Gantry_Crane_Pos_Restored : BOOL := FALSE;
+	Old_State : Crane_State;
+	Stop_Req : BOOL := FALSE;
+END_VAR
+VAR CONSTANT
+	Idle : WORD := 0;
+	Change_Vel : WORD := 1;
+	Change_Pos : WORD := 2;
+	Emergency_Stop_Req : WORD := 3;
+END_VAR
+VAR
+	Vacuum_En_Req : BOOL;
+	Vacuum_Dis_Req : BOOL;
+	Cartboard_En_Req : BOOL;
+	Cartboard_Dis_Req : BOOL;
+	Box_Holder_En_Req : BOOL;
+	Box_Holder_Dis_Req : BOOL;
+	Pusher_Z_En_Req : BOOL;
+	Pusher_Z_Dis_Req : BOOL;
+	Pusher_X_En_Req : BOOL;
+	Pusher_X_Dis_Req : BOOL;
+	New_Variable2 : USINT;
+	New_Variable1 : USINT;
+	New_Variable : USINT;
+END_VAR

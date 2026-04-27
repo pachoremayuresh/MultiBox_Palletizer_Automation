@@ -1,0 +1,28 @@
+VAR CONSTANT
+	Init : INT := 0;
+	Run : INT := 1;
+	Start_Configuration : INT := 2;
+	Configuration : INT := 3;
+	Start_Generation : INT := 4;
+	Generation : INT := 5;
+	Alarm : DINT := 2#0000000000000001;
+	Anomaly : DINT := 2#0000000000000010;
+	Warning : DINT := 2#0000000000000011;
+	Information : DINT := 2#0000000000000100;
+	Aux_Reset : DINT := 2#0000001000000000;
+	Unconditioned_Reset : DINT := 2#0100000000000000;
+	Auto_Conditioned_Reset : DINT := 2#0010000000000000;
+	Auto_Provisional_Reset : DINT := 2#0001000000000000;
+	Auto_Priority_Reset : DINT := 2#0000100000000000;
+	Auto_Reset : DINT := 2#0000010000000000;
+	Signal_Type_Mask : DINT := 2#0000000000000111;
+	Sign_None : DWORD := 16#0000;
+	Sign_Emergency_Stop : DWORD := 16#0001;
+	Sign_Immediate_Stop : DWORD := 16#0002;
+	Sign_On_Phase_Stop : DWORD := 16#0004;
+	Sign_Machine_Out_Of_Phase : DWORD := 16#0100;
+	Sign_Machine_Inhibition : DWORD := 16#0200;
+	Sign_Materials_Run_Out_Lamp : DWORD := 16#0400;
+	Sign_Materials_Run_Out_Buzzer : DWORD := 16#0800;
+	Sign_IO_Diagostic_Inhibition : DWORD := 16#8000;
+END_VAR

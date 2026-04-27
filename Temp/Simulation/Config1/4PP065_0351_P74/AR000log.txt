@@ -1,0 +1,21 @@
+Wed Apr 23 23:28:08 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Wed Apr 23 23:28:08 2025
+No ARsim registration found!
+
+Wed Apr 23 23:28:08 2025
+InstanceName: 00000069a69ff938
+
+Wed Apr 23 23:28:08 2025
+WorkingDirectory: D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_3\Pachore_Mayuresh_Project_3\Temp\Simulation\Config1\4PP065_0351_P74\
+
+Wed Apr 23 23:28:08 2025
+COMMAND_COLDSTART
+
+Wed Apr 23 23:28:10 2025
+Version: B4.91
+
+Wed Apr 23 23:31:12 2025
+COMMAND_TERMINATE
+

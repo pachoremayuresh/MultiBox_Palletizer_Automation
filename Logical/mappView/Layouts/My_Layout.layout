@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ldef:Layout id="My_Layout" height="1390" width="1990" xmlns:ldef="http://www.br-automation.com/iat2015/layoutDefinition/v2">
+  <Areas>
+    <Area id="area1" height="250" width="1990" left="0" top="0" zIndex="0" />
+    <Area id="area2" left="0" top="250" width="300" height="1140" zIndex="1" />
+    <Area id="area3" left="300" top="250" width="1690" height="1140" zIndex="2" />
+  </Areas>
+</ldef:Layout>

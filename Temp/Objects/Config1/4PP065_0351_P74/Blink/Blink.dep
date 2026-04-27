@@ -1,0 +1,2 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Blink/Blink.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun

@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[17]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput1" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[17]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image17" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[18]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput3" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[18]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image3" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[19]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput5" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[19]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image6" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[1]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput4" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[1]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image5" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[2]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image4" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[2]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput2" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[8]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image7" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[8]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput6" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[9]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput13" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[9]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image14" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[10]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput12" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[10]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image15" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[9]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image13" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[5]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image8" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[5]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput9" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[21]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image12" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[21]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image10" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[21]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput8" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[20]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image9" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[20]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput11" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[4]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image21" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[4]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput10" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[3]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput7" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[3]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image11" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[7]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput14" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[12]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image23" attribute="visible" />
+</Binding></Content>
+			
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[16]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput19" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[15]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image22" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[6]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image16" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[6]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput15" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[11]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image19" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[11]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput17" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[22]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput16" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[22]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image20" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[23]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image18" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[23]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput18" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[16]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image24" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[15]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput20" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[7]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_Image25" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="Alarm"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Signal_Man:Signal_Management.Signals[12]" attribute="value" />
+<Target xsi:type="brease" refId="Alarm_TextOutput21" attribute="visible" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

@@ -1,0 +1,6 @@
+{
+  global:
+    Gen_Device;
+  local:
+    *;
+ };
