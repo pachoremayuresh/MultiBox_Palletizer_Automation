@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxis.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxis.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAxis/MpAxisError.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Slave/Variables.var
+$(AS_PROJECT_PATH)/Physical/Config1/X20CP1382/Motion/Config.mpaxisbasic
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10man/Acp10man.typ

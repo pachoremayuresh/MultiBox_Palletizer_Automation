@@ -1,0 +1,4 @@
+VAR
+	gAxisBasic_Master : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Physical\Config1\X20CP1382\Motion\Config.mpaxisbasic" #2"1" #3"1"*)
+	gAxisBasic_Slave : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Physical\Config1\X20CP1382\Motion\Config.mpaxisbasic" #2"1" #3"1"*)
+END_VAR

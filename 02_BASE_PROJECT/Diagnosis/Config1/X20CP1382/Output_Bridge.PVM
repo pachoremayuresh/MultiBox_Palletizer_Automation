@@ -1,0 +1,11 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Output_Bri 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=64 Scope=60 Force=50 Index=6 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                      Dis_Conv_Speed_HMI                                     REAL    0 "                                                            18.0"    0    8    1   10    0    0         
+                       Dis_Cut_Depth_HMI                                      INT    0 "                                                             252"    0    3    1   10    0    0         
+                         Dis_Cut_Pos_HMI                                      INT    0 "                                                             900"    0    3    1   10    0    0         
+                       Dis_Cut_Speed_HMI                                     REAL    0 "                                                             0.0"    0    8    1   10    0    0         
+                       M_Actual_Position                                     REAL    0 "                                                            29.0"    0    8    1   10    0    0         
+                             LED_DI1_HMI                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                             LED_DI2_HMI                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                       S_Actual_Position                                     REAL    0 "                                                             0.0"    0    8    1   10    0    0         

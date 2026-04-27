@@ -1,0 +1,6 @@
+{
+  global:
+    MyGenericAxisBasicFB;
+  local:
+    *;
+ };

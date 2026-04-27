@@ -1,0 +1,245 @@
+@import "mixins.scss";
+#ContentLeft_Label1 {	@include elemTop(0);
+}
+#ContentLeft_Label1 {	@include elemLeft(0);
+}
+#ContentLeft_Label1 {	@include elemAutoWidth(100);
+}
+#ContentLeft_Label1 {	@include elemAutoHeight(55);
+}
+#ContentLeft_Label1 {	z-index: 0;
+}
+#ContentLeft_Label1 {	background-color: rgba(255, 255, 255, 0);
+}
+#ContentLeft_Label1 {	& span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentLeft_Label1 {	@include text-alignment-all('center');
+}
+#ContentLeft_Label1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentLeft_Label1 {	font-size: 18px;
+}
+#ContentLeft_Label1 {	@include font-weight-bold(true);
+}
+#ContentLeft_Label1 {	span {
+		@include text-decoration-underline(true);
+	}
+}
+#ContentLeft_LanguageSelector1 {	@include elemTop(405);
+}
+#ContentLeft_LanguageSelector1 {	@include elemLeft(5);
+}
+#ContentLeft_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemWidth(90);
+	}
+}
+#ContentLeft_LanguageSelector1 {	&.DropDownBoxView {
+		@include elemHeight(35);
+	}
+}
+#ContentLeft_LanguageSelector1 {	z-index: 1;
+}
+#ContentLeft_LanguageSelector1 {	& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+		background-color: rgba(255, 192, 192, 1);
+	}
+}
+#ContentLeft_LanguageSelector1 {	& > .ItemView.itemSelected:not(.itemDisabled) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentLeft_LanguageSelector1_listBoxWrapper {	& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+		background-color: rgba(255, 128, 0, 1);
+	}
+}
+#ContentLeft_LanguageSelector1 {	& .TextView {
+		font-size: 16px;
+	}
+}
+#ContentLeft_LanguageSelector1_listBoxWrapper {	& .TextView {
+		font-size: 16px;
+	}
+}
+#ContentLeft_LanguageSelector1 {	& .TextView {
+		font-family: Times New Roman;
+	}
+}
+#ContentLeft_LanguageSelector1_listBoxWrapper {	& .TextView {
+		font-family: Times New Roman;
+	}
+}
+#ContentLeft_NavigationBar1 {	@include elemTop(60);
+}
+#ContentLeft_NavigationBar1 {	@include elemLeft(5);
+}
+#ContentLeft_NavigationBar1 {	@include elemWidth(100);
+}
+#ContentLeft_NavigationBar1 {	@include elemHeight(140);
+}
+#ContentLeft_NavigationBar1 {	z-index: 2;
+}
+#ContentLeft_NavigationButton1 {	@include elemTop(0);
+}
+#ContentLeft_NavigationButton1 {	@include elemLeft(0);
+}
+#ContentLeft_NavigationButton1 {	@include elemAutoWidth(105);
+}
+#ContentLeft_NavigationButton1 {	@include elemAutoHeight(40);
+}
+#ContentLeft_NavigationButton1 {	z-index: 0;
+}
+#ContentLeft_NavigationButton1 {	@include border-radius(10px);
+}
+#ContentLeft_NavigationButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(192, 255, 192, 1);
+	}
+}
+#ContentLeft_NavigationButton1 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentLeft_NavigationButton1 {	span {
+		font-size: 18px;
+	}
+}
+#ContentLeft_NavigationButton1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentLeft_NavigationButton1 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#ContentLeft_NavigationButton1 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(224, 224, 224, 1);
+	}
+}
+#ContentLeft_NavigationButton2 {	@include elemTop(50);
+}
+#ContentLeft_NavigationButton2 {	@include elemLeft(0);
+}
+#ContentLeft_NavigationButton2 {	@include elemAutoWidth(105);
+}
+#ContentLeft_NavigationButton2 {	@include elemAutoHeight(40);
+}
+#ContentLeft_NavigationButton2 {	z-index: 1;
+}
+#ContentLeft_NavigationButton2 {	@include border-radius(10px);
+}
+#ContentLeft_NavigationButton2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(192, 255, 255, 1);
+	}
+}
+#ContentLeft_NavigationButton2 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentLeft_NavigationButton2 {	span {
+		font-size: 18px;
+	}
+}
+#ContentLeft_NavigationButton2 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentLeft_NavigationButton2 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#ContentLeft_NavigationButton2 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(224, 224, 224, 1);
+	}
+}
+#ContentLeft_NavigationButton3 {	@include elemTop(100);
+}
+#ContentLeft_NavigationButton3 {	@include elemLeft(0);
+}
+#ContentLeft_NavigationButton3 {	@include elemAutoWidth(105);
+}
+#ContentLeft_NavigationButton3 {	@include elemAutoHeight(40);
+}
+#ContentLeft_NavigationButton3 {	z-index: 2;
+}
+#ContentLeft_NavigationButton3 {	@include border-radius(10px);
+}
+#ContentLeft_NavigationButton3 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(192, 192, 255, 1);
+	}
+}
+#ContentLeft_NavigationButton3 {	&.active:not(.disabled):not(.editMode) {
+		background-color: rgba(255, 255, 255, 1);
+	}
+}
+#ContentLeft_NavigationButton3 {	span {
+		font-size: 18px;
+	}
+}
+#ContentLeft_NavigationButton3 {	span {
+		font-family: Times New Roman;
+	}
+}
+#ContentLeft_NavigationButton3 {	span {
+		@include font-weight-bold(true);
+	}
+}
+#ContentLeft_NavigationButton3 {	&.checked:not(.active):not(.disabled) {
+		background-color: rgba(224, 224, 224, 1);
+	}
+}
+#ContentLeft_Label2 {	@include elemAutoWidth(80);
+}
+#ContentLeft_Label2 {	@include elemAutoHeight(30);
+}
+#ContentLeft_Label2 {	@include elemTop(460);
+}
+#ContentLeft_Label2 {	@include elemLeft(10);
+}
+#ContentLeft_Label2 {	z-index: 3;
+}
+#ContentLeft_Label2 {	& span {
+		color: rgba(128, 64, 0, 1);
+	}
+}
+#ContentLeft_Label2 {	@include text-alignment-all('center');
+}
+#ContentLeft_Label2 {	font-size: 20px;
+}
+#ContentLeft_Label2 {	@include font-weight-bold(true);
+}
+#ContentLeft_MeasurementSystemSelector1 {	@include elemTop(360);
+}
+#ContentLeft_MeasurementSystemSelector1 {	@include elemLeft(5);
+}
+#ContentLeft_MeasurementSystemSelector1 {	&.DropDownBoxView {
+		@include elemWidth(90);
+	}
+}
+#ContentLeft_MeasurementSystemSelector1 {	&.DropDownBoxView {
+		@include elemHeight(35);
+	}
+}
+#ContentLeft_MeasurementSystemSelector1 {	z-index: 4;
+}
+#ContentLeft_MeasurementSystemSelector1 {	& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+		background-color: rgba(255, 192, 255, 1);
+	}
+}
+#ContentLeft_MeasurementSystemSelector1 {	& .TextView {
+		font-size: 16px;
+	}
+}
+#ContentLeft_MeasurementSystemSelector1_listBoxWrapper {	& .TextView {
+		font-size: 16px;
+	}
+}
+#ContentLeft_MeasurementSystemSelector1 {	& .TextView {
+		font-family: Times New Roman;
+	}
+}
+#ContentLeft_MeasurementSystemSelector1_listBoxWrapper {	& .TextView {
+		font-family: Times New Roman;
+	}
+}

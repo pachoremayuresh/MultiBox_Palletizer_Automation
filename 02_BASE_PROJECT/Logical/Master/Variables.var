@@ -1,0 +1,13 @@
+VAR
+	Master_Param : MpAxisBasicParType;
+	State : USINT := 0;
+	M_Update : BOOL;
+	M_MoveVelocity : BOOL;
+	M_MoveAbsolute : BOOL;
+	M_MoveAdditive : BOOL;
+	M_Velocity : REAL;
+	M_Stop : BOOL;
+	M_Jog_Param : MpAxisJogType;
+	M_Jog_Positive : BOOL;
+	M_Jog_Negative : BOOL;
+END_VAR

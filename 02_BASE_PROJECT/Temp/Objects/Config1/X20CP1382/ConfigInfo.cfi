@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="ComTCP_P"
+      Disable="false"
+      Source="Libraries.ComTCP.ComTCP_P"
+      Language="ANSIC">
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Libraries\ComTCP\ComTCP_P\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Libraries\ComTCP\ComTCP_P\Variables.var" />
+    </Task>
+    <Task
+      Name="Input_Brid"
+      Disable="false"
+      Source="Input_Bridge"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Temp\Objects\Config1\X20CP1382\Input_Brid\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Input_Bridge\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Input_Bridge\Variables.var" />
+    </Task>
+    <Task
+      Name="Output_Bri"
+      Disable="false"
+      Source="Output_Bridge"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Temp\Objects\Config1\X20CP1382\Output_Bri\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Output_Bridge\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Output_Bridge\Variables.var" />
+    </Task>
+    <Task
+      Name="PLCopen"
+      Disable="true"
+      Source="PLCopen"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Temp\Objects\Config1\X20CP1382\PLCopen\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\PLCopen\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\PLCopen\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="LED_IO"
+      Disable="false"
+      Source="LED_IO"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Temp\Objects\Config1\X20CP1382\LED_IO\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\LED_IO\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\LED_IO\Variables.var" />
+    </Task>
+    <Task
+      Name="Master"
+      Disable="false"
+      Source="Master"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Temp\Objects\Config1\X20CP1382\Master\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Master\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Master\Variables.var" />
+    </Task>
+    <Task
+      Name="Slave"
+      Disable="false"
+      Source="Slave"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Temp\Objects\Config1\X20CP1382\Slave\Main.st.var" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Slave\Types.typ" />
+      <File
+        Path="D:\Pachore_Mayuresh_ASDP\Pachore_Mayuresh_Project_2\Pachore_Mayuresh_Project_2\Logical\Slave\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4" />
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

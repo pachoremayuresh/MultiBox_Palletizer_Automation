@@ -1,0 +1,16 @@
+VAR
+	State : USINT := 0;
+	Slave_Param : MpAxisBasicParType;
+	Coupling_Param : MpAxisCouplingParType;
+	S_MoveVelocity : BOOL;
+	S_MoveAbsolute : BOOL;
+	S_MoveAdditive : BOOL;
+	C_Synced : BOOL;
+	S_Stop : BOOL;
+	S_Jog_Param : MpAxisJogType;
+	S_Jog_Positive : BOOL;
+	S_Jog_Negative : BOOL;
+	S_Position : REAL;
+	S_Velocity : REAL;
+	S_Direction : MpAxisMoveDirectionEnum;
+END_VAR

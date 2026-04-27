@@ -1,0 +1,13 @@
+VAR
+	MC_Power_0 : MC_Power;
+	MC_Home_0 : MC_Home;
+	MC_Stop_0 : MC_Stop;
+	MC_ReadStatus_0 : MC_ReadStatus;
+	MC_MoveVelocity_0 : MC_MoveVelocity;
+	MC_MoveAdditive_0 : MC_MoveAdditive;
+	MC_MoveAbsolute_0 : MC_MoveAbsolute;
+	MC_ReadActualPosition_0 : MC_ReadActualPosition;
+	MC_ReadActualVelocity_0 : MC_ReadActualVelocity;
+	MC_Reset_0 : MC_Reset;
+	MyGenericAxisBasicFB_Master : MyGenericAxisBasicFB;
+END_VAR

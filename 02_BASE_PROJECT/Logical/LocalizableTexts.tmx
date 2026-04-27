@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Button_Names</prop>
+  </header>
+  <body>
+    <tu tuid="Heading">
+      <tuv xml:lang="it">
+        <seg>Simulazione PLCOpen</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PLCOpen Simulation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Emergency">
+      <tuv xml:lang="it">
+        <seg>Emergenza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Emergency</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Min_Heading">
+      <tuv xml:lang="it">
+        <seg>Navigazione</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Navigation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Operate">
+      <tuv xml:lang="it">
+        <seg>Operare</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Operate</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Manual">
+      <tuv xml:lang="it">
+        <seg>Manuale</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Manual</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Advance">
+      <tuv xml:lang="it">
+        <seg>Anticipo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Advance</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SpeedCov">
+      <tuv xml:lang="it">
+        <seg>Velocità del trasportatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SpeedCut">
+      <tuv xml:lang="it">
+        <seg>Velocità della taglierina</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cutter Speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Cut_Pos">
+      <tuv xml:lang="it">
+        <seg>Posizione della taglierina</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cutter Postion</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Cut_range">
+      <tuv xml:lang="it">
+        <seg>Gamma di taglierine</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cutter Range</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Manual_User">
+      <tuv xml:lang="it">
+        <seg>Nota: Da utilizzare solo durante interventi di emergenza o di riparazione</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Note: Only to be used during an Emergence or Repair Works </seg>
+      </tuv>
+    </tu>
+    <tu tuid="Blade_Pos">
+      <tuv xml:lang="it">
+        <seg>Posizione della lama</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Blade Position</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Conv_Mov">
+      <tuv xml:lang="it">
+        <seg>Motore del trasportatore</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Conveyor Mover</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Slow_Motion">
+      <tuv xml:lang="it">
+        <seg>Movimento lento</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Slow Mover</seg>
+      </tuv>
+    </tu>
+    <tu tuid="future">
+      <tuv xml:lang="it">
+        <seg>Sarà disponibile negli aggiornamenti futuri</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Will be available in Future Updates</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Over_Ride">
+      <tuv xml:lang="it">
+        <seg>Oltre il Giro</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Over Ride</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ManualOperator">
+      <tuv xml:lang="it">
+        <seg>Pulsante operatore manuale</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Manual Operator Button</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
